@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090e1a" />
+    </linearGradient>
+    <linearGradient id="topArc" x1="12" y1="12" x2="52" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)" />
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="2" />
+  <!-- Upper Cobalt Hemisphere -->
+  <path d="M12 30A20 20 0 0 1 52 30H40.5A8.5 8.5 0 0 0 23.5 30H12Z" fill="url(#topArc)" />
+  <!-- Lower Slate/Gold Accent Hemisphere -->
+  <path d="M12 34H23.5A8.5 8.5 0 0 0 40.5 34H52A20 20 0 0 1 12 34Z" fill="#e2e8f0" />
+  <!-- Center IV Core Ring -->
+  <circle cx="32" cy="32" r="6" fill="#090e1a" stroke="#facc15" stroke-width="2.5" />
+  <circle cx="32" cy="32" r="2.5" fill="#facc15" />
+</svg>
