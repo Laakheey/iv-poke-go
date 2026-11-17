@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Chakra Petch", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-sans);
+    background-color: #0b1120;
+    color: #f1f5f9;
+  }
+}
+
+/* Remove default number input spinners so custom numeric steppers stay crisp */
+input[type="number"].no-spinner::-webkit-inner-spin-button,
+input[type="number"].no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"].no-spinner {
+  -moz-appearance: textfield;
+}
+
+/* Sleek range scrubber */
+input[type="range"].iv-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(148, 163, 184, 0.2);
+  outline: none;
+}
+
+input[type="range"].iv-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background: #f8fafc;
+  border: 2px solid #38bdf8;
+  cursor: pointer;
+}
+
+input[type="range"].iv-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background: #f8fafc;
+  border: 2px solid #38bdf8;
+  cursor: pointer;
+}
