@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Search } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ListOrdered, Search } from 'lucide-react';
 import { formatPokemonDisplayName, LEAGUES, LeagueId, PokemonSpecies } from '../data/pokemon';
 import { IvSpreadResult, MaxLevelCap } from '../utils/pvpCalculator';
 
@@ -44,7 +44,6 @@ export function RankingsTable({
   const baseRows = useMemo(() => {
     const q = ivFilter.trim();
     if (q) {
-      // Allow filtering by "0/15/15" or "0 15" or single rank "#12"
       if (q.startsWith('#')) {
         const targetRank = Number(q.slice(1));
         if (!Number.isNaN(targetRank) && targetRank > 0) {
@@ -96,13 +95,16 @@ export function RankingsTable({
     <section className="bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden">
       {/* Table Header & Controls */}
       <div className="px-4 py-3.5 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
-        <div>
-          <h2 className="font-display text-base font-bold text-white">
-            {formatPokemonDisplayName(species)} · {league.name} Rankings
-          </h2>
-          <p className="text-xs text-slate-400 mt-0.5">
-            Max Level {maxLevel} · IV Floor {ivFloor} · {allRanked.length.toLocaleString()} combinations · Click any row to load IVs
-          </p>
+        <div className="flex items-start gap-2.5">
+          <ListOrdered className="w-4 h-4 text-sky-400 mt-0.5 shrink-0" />
+          <div>
+            <h2 className="font-display text-base font-bold text-white">
+              {formatPokemonDisplayName(species)} · {league.name} Rankings
+            </h2>
+            <p className="text-xs text-slate-400 mt-0.5">
+              Max Level {maxLevel} · IV Floor {ivFloor} · {allRanked.length.toLocaleString()} combinations · Click any row to load IVs
+            </p>
+          </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-2.5">
@@ -244,9 +246,10 @@ export function RankingsTable({
               type="button"
               disabled={safePage === 0}
               onClick={() => setPage((p) => Math.max(0, p - 1))}
-              className="px-2.5 py-1 rounded border border-slate-700 text-slate-200 disabled:opacity-40 hover:bg-slate-800 cursor-pointer disabled:cursor-default"
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded border border-slate-700 text-slate-200 disabled:opacity-40 hover:bg-slate-800 cursor-pointer disabled:cursor-default"
             >
-              Prev
+              <ChevronLeft className="w-3.5 h-3.5" />
+              <span>Prev</span>
             </button>
             <span className="font-mono tabular-nums px-2 text-slate-300">
               {safePage + 1} / {totalPages}
@@ -255,9 +258,10 @@ export function RankingsTable({
               type="button"
               disabled={safePage >= totalPages - 1}
               onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
-              className="px-2.5 py-1 rounded border border-slate-700 text-slate-200 disabled:opacity-40 hover:bg-slate-800 cursor-pointer disabled:cursor-default"
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded border border-slate-700 text-slate-200 disabled:opacity-40 hover:bg-slate-800 cursor-pointer disabled:cursor-default"
             >
-              Next
+              <span>Next</span>
+              <ChevronRight className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>

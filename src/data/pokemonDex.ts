@@ -1,8 +1,9 @@
-// Generated from official Pokémon GO Game Master data via PoGOAPI.net (1092 released species & combat forms)
+// Generated from official Pokémon GO Game Master data via PoGOAPI.net + PokéAPI sprite IDs (1092 entries)
 
 export interface PogoPokemon {
   id: string;
   dex: number;
+  spriteId: number;
   name: string;
   form?: string;
   types: string[];
@@ -22,7 +23,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 111,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 1
   },
   {
     "id": "2-ivysaur",
@@ -34,7 +36,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 143,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 2
   },
   {
     "id": "3-venusaur",
@@ -46,7 +49,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 189,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 3
   },
   {
     "id": "3-mega-normal",
@@ -59,7 +63,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 241,
     "def": 246,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10033
   },
   {
     "id": "4-charmander",
@@ -70,7 +75,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 93,
-    "sta": 118
+    "sta": 118,
+    "spriteId": 4
   },
   {
     "id": "5-charmeleon",
@@ -81,7 +87,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 126,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 5
   },
   {
     "id": "6-charizard",
@@ -93,7 +100,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 173,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 6
   },
   {
     "id": "6-mega-x",
@@ -106,7 +114,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 273,
     "def": 213,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 10034
   },
   {
     "id": "6-mega-y",
@@ -119,7 +128,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 319,
     "def": 212,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 10035
   },
   {
     "id": "7-squirtle",
@@ -130,7 +140,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 94,
     "def": 121,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 7
   },
   {
     "id": "8-wartortle",
@@ -141,7 +152,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 126,
     "def": 155,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 8
   },
   {
     "id": "9-blastoise",
@@ -152,7 +164,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 207,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 9
   },
   {
     "id": "9-mega-normal",
@@ -164,7 +177,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 264,
     "def": 237,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 10036
   },
   {
     "id": "10-caterpie",
@@ -175,7 +189,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 55,
     "def": 55,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 10
   },
   {
     "id": "11-metapod",
@@ -186,7 +201,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 45,
     "def": 80,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 11
   },
   {
     "id": "12-butterfree",
@@ -198,7 +214,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 137,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 12
   },
   {
     "id": "13-weedle",
@@ -210,7 +227,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 63,
     "def": 50,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 13
   },
   {
     "id": "14-kakuna",
@@ -222,7 +240,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 46,
     "def": 75,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 14
   },
   {
     "id": "15-beedrill",
@@ -234,7 +253,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 130,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 15
   },
   {
     "id": "15-mega-normal",
@@ -247,7 +267,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 303,
     "def": 148,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10090
   },
   {
     "id": "16-pidgey",
@@ -259,7 +280,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 85,
     "def": 73,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 16
   },
   {
     "id": "17-pidgeotto",
@@ -271,7 +293,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 105,
-    "sta": 160
+    "sta": 160,
+    "spriteId": 17
   },
   {
     "id": "18-pidgeot",
@@ -283,7 +306,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 166,
     "def": 154,
-    "sta": 195
+    "sta": 195,
+    "spriteId": 18
   },
   {
     "id": "18-mega-normal",
@@ -296,7 +320,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 280,
     "def": 175,
-    "sta": 195
+    "sta": 195,
+    "spriteId": 10073
   },
   {
     "id": "19-rattata",
@@ -307,7 +332,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 103,
     "def": 70,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 19
   },
   {
     "id": "19-alola",
@@ -320,7 +346,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 103,
     "def": 70,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 10091
   },
   {
     "id": "20-raticate",
@@ -331,7 +358,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 139,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 20
   },
   {
     "id": "20-alola",
@@ -344,7 +372,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 154,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10092
   },
   {
     "id": "21-spearow",
@@ -356,7 +385,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 60,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 21
   },
   {
     "id": "22-fearow",
@@ -368,7 +398,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 133,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 22
   },
   {
     "id": "23-ekans",
@@ -379,7 +410,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 110,
     "def": 97,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 23
   },
   {
     "id": "24-arbok",
@@ -390,7 +422,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 153,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 24
   },
   {
     "id": "25-pikachu",
@@ -401,7 +434,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 96,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 25
   },
   {
     "id": "26-raichu",
@@ -412,7 +446,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 193,
     "def": 151,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 26
   },
   {
     "id": "26-alola",
@@ -425,7 +460,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 154,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10100
   },
   {
     "id": "27-sandshrew",
@@ -436,7 +472,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 126,
     "def": 120,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 27
   },
   {
     "id": "27-alola",
@@ -449,7 +486,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 125,
     "def": 129,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10101
   },
   {
     "id": "28-sandslash",
@@ -460,7 +498,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 175,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 28
   },
   {
     "id": "28-alola",
@@ -473,7 +512,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 195,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10102
   },
   {
     "id": "29-nidoran_",
@@ -484,7 +524,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 86,
     "def": 89,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 29
   },
   {
     "id": "30-nidorina",
@@ -495,7 +536,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 120,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 30
   },
   {
     "id": "31-nidoqueen",
@@ -507,7 +549,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 173,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 31
   },
   {
     "id": "32-nidoran_",
@@ -518,7 +561,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 76,
-    "sta": 130
+    "sta": 130,
+    "spriteId": 32
   },
   {
     "id": "33-nidorino",
@@ -529,7 +573,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 111,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 33
   },
   {
     "id": "34-nidoking",
@@ -541,7 +586,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 156,
-    "sta": 191
+    "sta": 191,
+    "spriteId": 34
   },
   {
     "id": "35-clefairy",
@@ -552,7 +598,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 108,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 35
   },
   {
     "id": "36-clefable",
@@ -563,7 +610,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 162,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 36
   },
   {
     "id": "37-vulpix",
@@ -574,7 +622,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 109,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 37
   },
   {
     "id": "37-alola",
@@ -586,7 +635,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 109,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 10103
   },
   {
     "id": "38-ninetales",
@@ -597,7 +647,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 190,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 38
   },
   {
     "id": "38-alola",
@@ -610,7 +661,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 193,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 10104
   },
   {
     "id": "39-jigglypuff",
@@ -622,7 +674,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 80,
     "def": 41,
-    "sta": 251
+    "sta": 251,
+    "spriteId": 39
   },
   {
     "id": "40-wigglytuff",
@@ -634,7 +687,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 90,
-    "sta": 295
+    "sta": 295,
+    "spriteId": 40
   },
   {
     "id": "41-zubat",
@@ -646,7 +700,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 83,
     "def": 73,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 41
   },
   {
     "id": "42-golbat",
@@ -658,7 +713,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 150,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 42
   },
   {
     "id": "43-oddish",
@@ -670,7 +726,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 131,
     "def": 112,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 43
   },
   {
     "id": "44-gloom",
@@ -682,7 +739,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 136,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 44
   },
   {
     "id": "45-vileplume",
@@ -694,7 +752,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 202,
     "def": 167,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 45
   },
   {
     "id": "46-paras",
@@ -706,7 +765,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 99,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 46
   },
   {
     "id": "47-parasect",
@@ -718,7 +778,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 146,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 47
   },
   {
     "id": "48-venonat",
@@ -730,7 +791,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 100,
     "def": 100,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 48
   },
   {
     "id": "49-venomoth",
@@ -742,7 +804,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 179,
     "def": 143,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 49
   },
   {
     "id": "50-diglett",
@@ -753,7 +816,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 78,
-    "sta": 67
+    "sta": 67,
+    "spriteId": 50
   },
   {
     "id": "50-alola",
@@ -766,7 +830,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 81,
-    "sta": 67
+    "sta": 67,
+    "spriteId": 10105
   },
   {
     "id": "51-dugtrio",
@@ -777,7 +842,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 136,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 51
   },
   {
     "id": "51-alola",
@@ -790,7 +856,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 142,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 10106
   },
   {
     "id": "52-meowth",
@@ -801,7 +868,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 92,
     "def": 78,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 52
   },
   {
     "id": "52-alola",
@@ -813,7 +881,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 99,
     "def": 78,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 10107
   },
   {
     "id": "52-galarian",
@@ -825,7 +894,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 92,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10161
   },
   {
     "id": "53-persian",
@@ -836,7 +906,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 136,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 53
   },
   {
     "id": "53-alola",
@@ -848,7 +919,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 136,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10108
   },
   {
     "id": "54-psyduck",
@@ -859,7 +931,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 95,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 54
   },
   {
     "id": "55-golduck",
@@ -870,7 +943,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 191,
     "def": 162,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 55
   },
   {
     "id": "56-mankey",
@@ -881,7 +955,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 82,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 56
   },
   {
     "id": "57-primeape",
@@ -892,7 +967,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 138,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 57
   },
   {
     "id": "58-growlithe",
@@ -903,7 +979,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 93,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 58
   },
   {
     "id": "58-hisuian",
@@ -916,7 +993,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 92,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10229
   },
   {
     "id": "59-arcanine",
@@ -927,7 +1005,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 227,
     "def": 166,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 59
   },
   {
     "id": "59-hisuian",
@@ -940,7 +1019,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 165,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10230
   },
   {
     "id": "60-poliwag",
@@ -951,7 +1031,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 101,
     "def": 82,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 60
   },
   {
     "id": "61-poliwhirl",
@@ -962,7 +1043,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 130,
     "def": 123,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 61
   },
   {
     "id": "62-poliwrath",
@@ -974,7 +1056,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 184,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 62
   },
   {
     "id": "63-abra",
@@ -985,7 +1068,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 195,
     "def": 82,
-    "sta": 93
+    "sta": 93,
+    "spriteId": 63
   },
   {
     "id": "64-kadabra",
@@ -996,7 +1080,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 117,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 64
   },
   {
     "id": "65-alakazam",
@@ -1007,7 +1092,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 271,
     "def": 167,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 65
   },
   {
     "id": "65-mega-normal",
@@ -1019,7 +1105,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 367,
     "def": 207,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10037
   },
   {
     "id": "66-machop",
@@ -1030,7 +1117,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 82,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 66
   },
   {
     "id": "67-machoke",
@@ -1041,7 +1129,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 125,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 67
   },
   {
     "id": "68-machamp",
@@ -1052,7 +1141,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 234,
     "def": 159,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 68
   },
   {
     "id": "69-bellsprout",
@@ -1064,7 +1154,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 61,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 69
   },
   {
     "id": "70-weepinbell",
@@ -1076,7 +1167,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 92,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 70
   },
   {
     "id": "71-victreebel",
@@ -1088,7 +1180,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 135,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 71
   },
   {
     "id": "72-tentacool",
@@ -1100,7 +1193,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 97,
     "def": 149,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 72
   },
   {
     "id": "73-tentacruel",
@@ -1112,7 +1206,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 166,
     "def": 209,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 73
   },
   {
     "id": "74-geodude",
@@ -1124,7 +1219,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 132,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 74
   },
   {
     "id": "74-alola",
@@ -1137,7 +1233,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 132,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 10109
   },
   {
     "id": "75-graveler",
@@ -1149,7 +1246,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 164,
     "def": 164,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 75
   },
   {
     "id": "75-alola",
@@ -1162,7 +1260,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 164,
     "def": 164,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10110
   },
   {
     "id": "76-golem",
@@ -1174,7 +1273,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 198,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 76
   },
   {
     "id": "76-alola",
@@ -1187,7 +1287,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 198,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10111
   },
   {
     "id": "77-ponyta",
@@ -1198,7 +1299,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 127,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 77
   },
   {
     "id": "77-galarian",
@@ -1210,7 +1312,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 127,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10162
   },
   {
     "id": "78-rapidash",
@@ -1221,7 +1324,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 162,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 78
   },
   {
     "id": "78-galarian",
@@ -1234,7 +1338,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 162,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10163
   },
   {
     "id": "79-slowpoke",
@@ -1246,7 +1351,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 98,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 79
   },
   {
     "id": "79-galarian",
@@ -1258,7 +1364,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 98,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10164
   },
   {
     "id": "80-slowbro",
@@ -1270,7 +1377,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 180,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 80
   },
   {
     "id": "80-galarian",
@@ -1283,7 +1391,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 156,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10165
   },
   {
     "id": "80-mega-normal",
@@ -1296,7 +1405,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 224,
     "def": 259,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10071
   },
   {
     "id": "81-magnemite",
@@ -1308,7 +1418,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 121,
-    "sta": 93
+    "sta": 93,
+    "spriteId": 81
   },
   {
     "id": "82-magneton",
@@ -1320,7 +1431,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 169,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 82
   },
   {
     "id": "83-farfetch_d",
@@ -1332,7 +1444,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 115,
-    "sta": 141
+    "sta": 141,
+    "spriteId": 83
   },
   {
     "id": "83-galarian",
@@ -1344,7 +1457,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 114,
-    "sta": 141
+    "sta": 141,
+    "spriteId": 10166
   },
   {
     "id": "84-doduo",
@@ -1356,7 +1470,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 83,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 84
   },
   {
     "id": "85-dodrio",
@@ -1368,7 +1483,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 140,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 85
   },
   {
     "id": "86-seel",
@@ -1379,7 +1495,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 85,
     "def": 121,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 86
   },
   {
     "id": "87-dewgong",
@@ -1391,7 +1508,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 177,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 87
   },
   {
     "id": "88-grimer",
@@ -1402,7 +1520,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 90,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 88
   },
   {
     "id": "88-alola",
@@ -1415,7 +1534,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 90,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10112
   },
   {
     "id": "89-muk",
@@ -1426,7 +1546,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 172,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 89
   },
   {
     "id": "89-alola",
@@ -1439,7 +1560,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 172,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 10113
   },
   {
     "id": "90-shellder",
@@ -1450,7 +1572,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 134,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 90
   },
   {
     "id": "91-cloyster",
@@ -1462,7 +1585,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 256,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 91
   },
   {
     "id": "92-gastly",
@@ -1474,7 +1598,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 67,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 92
   },
   {
     "id": "93-haunter",
@@ -1486,7 +1611,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 107,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 93
   },
   {
     "id": "94-gengar",
@@ -1498,7 +1624,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 149,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 94
   },
   {
     "id": "94-mega-normal",
@@ -1511,7 +1638,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 349,
     "def": 199,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10038
   },
   {
     "id": "95-onix",
@@ -1523,7 +1651,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 85,
     "def": 232,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 95
   },
   {
     "id": "96-drowzee",
@@ -1534,7 +1663,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 89,
     "def": 136,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 96
   },
   {
     "id": "97-hypno",
@@ -1545,7 +1675,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 193,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 97
   },
   {
     "id": "98-krabby",
@@ -1556,7 +1687,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 181,
     "def": 124,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 98
   },
   {
     "id": "99-kingler",
@@ -1567,7 +1699,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 240,
     "def": 181,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 99
   },
   {
     "id": "100-voltorb",
@@ -1578,7 +1711,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 111,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 100
   },
   {
     "id": "100-hisuian",
@@ -1591,7 +1725,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 111,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 10231
   },
   {
     "id": "101-electrode",
@@ -1602,7 +1737,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 173,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 101
   },
   {
     "id": "101-hisuian",
@@ -1615,7 +1751,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 176,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10232
   },
   {
     "id": "102-exeggcute",
@@ -1627,7 +1764,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 125,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 102
   },
   {
     "id": "103-exeggutor",
@@ -1639,7 +1777,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 233,
     "def": 149,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 103
   },
   {
     "id": "103-alola",
@@ -1652,7 +1791,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 230,
     "def": 153,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10114
   },
   {
     "id": "104-cubone",
@@ -1663,7 +1803,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 90,
     "def": 144,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 104
   },
   {
     "id": "105-marowak",
@@ -1674,7 +1815,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 186,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 105
   },
   {
     "id": "105-alola",
@@ -1687,7 +1829,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 186,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10115
   },
   {
     "id": "106-hitmonlee",
@@ -1698,7 +1841,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 224,
     "def": 181,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 106
   },
   {
     "id": "107-hitmonchan",
@@ -1709,7 +1853,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 193,
     "def": 197,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 107
   },
   {
     "id": "108-lickitung",
@@ -1720,7 +1865,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 137,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 108
   },
   {
     "id": "109-koffing",
@@ -1731,7 +1877,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 141,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 109
   },
   {
     "id": "110-weezing",
@@ -1742,7 +1889,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 197,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 110
   },
   {
     "id": "110-galarian",
@@ -1755,7 +1903,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 197,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10167
   },
   {
     "id": "111-rhyhorn",
@@ -1767,7 +1916,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 140,
     "def": 127,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 111
   },
   {
     "id": "112-rhydon",
@@ -1779,7 +1929,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 171,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 112
   },
   {
     "id": "113-chansey",
@@ -1790,7 +1941,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 60,
     "def": 128,
-    "sta": 487
+    "sta": 487,
+    "spriteId": 113
   },
   {
     "id": "114-tangela",
@@ -1801,7 +1953,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 183,
     "def": 169,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 114
   },
   {
     "id": "115-kangaskhan",
@@ -1812,7 +1965,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 181,
     "def": 165,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 115
   },
   {
     "id": "115-mega-normal",
@@ -1824,7 +1978,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 246,
     "def": 210,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 10039
   },
   {
     "id": "116-horsea",
@@ -1835,7 +1990,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 129,
     "def": 103,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 116
   },
   {
     "id": "117-seadra",
@@ -1846,7 +2002,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 187,
     "def": 156,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 117
   },
   {
     "id": "118-goldeen",
@@ -1857,7 +2014,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 123,
     "def": 110,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 118
   },
   {
     "id": "119-seaking",
@@ -1868,7 +2026,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 147,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 119
   },
   {
     "id": "120-staryu",
@@ -1879,7 +2038,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 112,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 120
   },
   {
     "id": "121-starmie",
@@ -1891,7 +2051,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 184,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 121
   },
   {
     "id": "122-mr_mime",
@@ -1903,7 +2064,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 205,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 122
   },
   {
     "id": "122-galarian",
@@ -1916,7 +2078,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 183,
     "def": 169,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10168
   },
   {
     "id": "123-scyther",
@@ -1928,7 +2091,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 170,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 123
   },
   {
     "id": "124-jynx",
@@ -1940,7 +2104,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 151,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 124
   },
   {
     "id": "125-electabuzz",
@@ -1951,7 +2116,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 158,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 125
   },
   {
     "id": "126-magmar",
@@ -1962,7 +2128,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 154,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 126
   },
   {
     "id": "127-pinsir",
@@ -1973,7 +2140,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 182,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 127
   },
   {
     "id": "127-mega-normal",
@@ -1986,7 +2154,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 305,
     "def": 231,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10040
   },
   {
     "id": "128-tauros",
@@ -1997,7 +2166,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 183,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 128
   },
   {
     "id": "128-paldea_aqua",
@@ -2010,7 +2180,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 193,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10252
   },
   {
     "id": "128-paldea_blaze",
@@ -2023,7 +2194,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 193,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10251
   },
   {
     "id": "128-paldea_combat",
@@ -2035,7 +2207,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 193,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10250
   },
   {
     "id": "129-magikarp",
@@ -2046,7 +2219,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 29,
     "def": 85,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 129
   },
   {
     "id": "130-gyarados",
@@ -2058,7 +2232,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 237,
     "def": 186,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 130
   },
   {
     "id": "130-mega-normal",
@@ -2071,7 +2246,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 292,
     "def": 247,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10041
   },
   {
     "id": "131-lapras",
@@ -2083,7 +2259,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 174,
-    "sta": 277
+    "sta": 277,
+    "spriteId": 131
   },
   {
     "id": "132-ditto",
@@ -2094,7 +2271,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 91,
     "def": 91,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 132
   },
   {
     "id": "133-eevee",
@@ -2105,7 +2283,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 114,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 133
   },
   {
     "id": "134-vaporeon",
@@ -2116,7 +2295,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 161,
-    "sta": 277
+    "sta": 277,
+    "spriteId": 134
   },
   {
     "id": "135-jolteon",
@@ -2127,7 +2307,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 182,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 135
   },
   {
     "id": "136-flareon",
@@ -2138,7 +2319,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 246,
     "def": 179,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 136
   },
   {
     "id": "137-porygon",
@@ -2149,7 +2331,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 136,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 137
   },
   {
     "id": "138-omanyte",
@@ -2161,7 +2344,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 153,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 138
   },
   {
     "id": "139-omastar",
@@ -2173,7 +2357,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 201,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 139
   },
   {
     "id": "140-kabuto",
@@ -2185,7 +2370,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 140,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 140
   },
   {
     "id": "141-kabutops",
@@ -2197,7 +2383,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 220,
     "def": 186,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 141
   },
   {
     "id": "142-aerodactyl",
@@ -2209,7 +2396,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 159,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 142
   },
   {
     "id": "142-mega-normal",
@@ -2222,7 +2410,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 292,
     "def": 210,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10042
   },
   {
     "id": "143-snorlax",
@@ -2233,7 +2422,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 169,
-    "sta": 330
+    "sta": 330,
+    "spriteId": 143
   },
   {
     "id": "144-articuno",
@@ -2245,7 +2435,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 236,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 144
   },
   {
     "id": "144-galarian",
@@ -2258,7 +2449,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 197,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10169
   },
   {
     "id": "145-zapdos",
@@ -2270,7 +2462,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 253,
     "def": 185,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 145
   },
   {
     "id": "145-galarian",
@@ -2283,7 +2476,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 252,
     "def": 189,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10170
   },
   {
     "id": "146-moltres",
@@ -2295,7 +2489,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 251,
     "def": 181,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 146
   },
   {
     "id": "146-galarian",
@@ -2308,7 +2503,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 202,
     "def": 231,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10171
   },
   {
     "id": "147-dratini",
@@ -2319,7 +2515,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 91,
-    "sta": 121
+    "sta": 121,
+    "spriteId": 147
   },
   {
     "id": "148-dragonair",
@@ -2330,7 +2527,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 135,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 148
   },
   {
     "id": "149-dragonite",
@@ -2342,7 +2540,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 263,
     "def": 198,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 149
   },
   {
     "id": "150-mewtwo",
@@ -2353,7 +2552,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 300,
     "def": 182,
-    "sta": 214
+    "sta": 214,
+    "spriteId": 150
   },
   {
     "id": "150-a",
@@ -2365,7 +2565,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 278,
-    "sta": 214
+    "sta": 214,
+    "spriteId": 150
   },
   {
     "id": "151-mew",
@@ -2376,7 +2577,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 210,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 151
   },
   {
     "id": "152-chikorita",
@@ -2387,7 +2589,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 92,
     "def": 122,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 152
   },
   {
     "id": "153-bayleef",
@@ -2398,7 +2601,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 155,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 153
   },
   {
     "id": "154-meganium",
@@ -2409,7 +2613,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 168,
     "def": 202,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 154
   },
   {
     "id": "155-cyndaquil",
@@ -2420,7 +2625,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 93,
-    "sta": 118
+    "sta": 118,
+    "spriteId": 155
   },
   {
     "id": "156-quilava",
@@ -2431,7 +2637,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 126,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 156
   },
   {
     "id": "157-typhlosion",
@@ -2442,7 +2649,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 173,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 157
   },
   {
     "id": "157-hisuian",
@@ -2455,7 +2663,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 172,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 10233
   },
   {
     "id": "158-totodile",
@@ -2466,7 +2675,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 109,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 158
   },
   {
     "id": "159-croconaw",
@@ -2477,7 +2687,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 142,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 159
   },
   {
     "id": "160-feraligatr",
@@ -2488,7 +2699,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 188,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 160
   },
   {
     "id": "161-sentret",
@@ -2499,7 +2711,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 79,
     "def": 73,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 161
   },
   {
     "id": "162-furret",
@@ -2510,7 +2723,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 125,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 162
   },
   {
     "id": "163-hoothoot",
@@ -2522,7 +2736,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 67,
     "def": 88,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 163
   },
   {
     "id": "164-noctowl",
@@ -2534,7 +2749,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 156,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 164
   },
   {
     "id": "165-ledyba",
@@ -2546,7 +2762,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 72,
     "def": 118,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 165
   },
   {
     "id": "166-ledian",
@@ -2558,7 +2775,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 179,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 166
   },
   {
     "id": "167-spinarak",
@@ -2570,7 +2788,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 73,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 167
   },
   {
     "id": "168-ariados",
@@ -2582,7 +2801,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 124,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 168
   },
   {
     "id": "169-crobat",
@@ -2594,7 +2814,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 194,
     "def": 178,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 169
   },
   {
     "id": "170-chinchou",
@@ -2606,7 +2827,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 106,
     "def": 97,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 170
   },
   {
     "id": "171-lanturn",
@@ -2618,7 +2840,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 146,
     "def": 137,
-    "sta": 268
+    "sta": 268,
+    "spriteId": 171
   },
   {
     "id": "172-pichu",
@@ -2629,7 +2852,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 77,
     "def": 53,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 172
   },
   {
     "id": "173-cleffa",
@@ -2640,7 +2864,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 75,
     "def": 79,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 173
   },
   {
     "id": "174-igglybuff",
@@ -2652,7 +2877,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 69,
     "def": 32,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 174
   },
   {
     "id": "175-togepi",
@@ -2663,7 +2889,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 67,
     "def": 116,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 175
   },
   {
     "id": "176-togetic",
@@ -2675,7 +2902,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 181,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 176
   },
   {
     "id": "177-natu",
@@ -2687,7 +2915,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 89,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 177
   },
   {
     "id": "178-xatu",
@@ -2699,7 +2928,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 146,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 178
   },
   {
     "id": "179-mareep",
@@ -2710,7 +2940,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 114,
     "def": 79,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 179
   },
   {
     "id": "180-flaaffy",
@@ -2721,7 +2952,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 109,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 180
   },
   {
     "id": "181-ampharos",
@@ -2732,7 +2964,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 169,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 181
   },
   {
     "id": "181-mega-normal",
@@ -2745,7 +2978,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 294,
     "def": 203,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10045
   },
   {
     "id": "182-bellossom",
@@ -2756,7 +2990,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 186,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 182
   },
   {
     "id": "183-marill",
@@ -2768,7 +3003,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 37,
     "def": 93,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 183
   },
   {
     "id": "184-azumarill",
@@ -2780,7 +3016,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 152,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 184
   },
   {
     "id": "185-sudowoodo",
@@ -2791,7 +3028,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 176,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 185
   },
   {
     "id": "186-politoed",
@@ -2802,7 +3040,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 179,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 186
   },
   {
     "id": "187-hoppip",
@@ -2814,7 +3053,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 67,
     "def": 94,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 187
   },
   {
     "id": "188-skiploom",
@@ -2826,7 +3066,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 91,
     "def": 120,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 188
   },
   {
     "id": "189-jumpluff",
@@ -2838,7 +3079,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 183,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 189
   },
   {
     "id": "190-aipom",
@@ -2849,7 +3091,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 112,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 190
   },
   {
     "id": "191-sunkern",
@@ -2860,7 +3103,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 55,
     "def": 55,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 191
   },
   {
     "id": "192-sunflora",
@@ -2871,7 +3115,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 185,
     "def": 135,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 192
   },
   {
     "id": "193-yanma",
@@ -2883,7 +3128,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 154,
     "def": 94,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 193
   },
   {
     "id": "194-wooper",
@@ -2895,7 +3141,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 75,
     "def": 66,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 194
   },
   {
     "id": "194-paldea",
@@ -2908,7 +3155,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 75,
     "def": 66,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10253
   },
   {
     "id": "195-quagsire",
@@ -2920,7 +3168,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 152,
     "def": 143,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 195
   },
   {
     "id": "196-espeon",
@@ -2931,7 +3180,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 175,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 196
   },
   {
     "id": "197-umbreon",
@@ -2942,7 +3192,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 126,
     "def": 240,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 197
   },
   {
     "id": "198-murkrow",
@@ -2954,7 +3205,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 87,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 198
   },
   {
     "id": "199-slowking",
@@ -2966,7 +3218,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 180,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 199
   },
   {
     "id": "199-galarian",
@@ -2979,7 +3232,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 180,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10172
   },
   {
     "id": "200-misdreavus",
@@ -2990,7 +3244,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 154,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 200
   },
   {
     "id": "201-unown",
@@ -3001,7 +3256,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 91,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 201
   },
   {
     "id": "202-wobbuffet",
@@ -3012,7 +3268,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 60,
     "def": 106,
-    "sta": 382
+    "sta": 382,
+    "spriteId": 202
   },
   {
     "id": "203-girafarig",
@@ -3024,7 +3281,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 133,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 203
   },
   {
     "id": "204-pineco",
@@ -3035,7 +3293,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 122,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 204
   },
   {
     "id": "205-forretress",
@@ -3047,7 +3306,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 205,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 205
   },
   {
     "id": "206-dunsparce",
@@ -3058,7 +3318,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 131,
     "def": 128,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 206
   },
   {
     "id": "207-gligar",
@@ -3070,7 +3331,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 143,
     "def": 184,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 207
   },
   {
     "id": "208-steelix",
@@ -3082,7 +3344,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 272,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 208
   },
   {
     "id": "208-mega-normal",
@@ -3095,7 +3358,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 327,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10072
   },
   {
     "id": "209-snubbull",
@@ -3106,7 +3370,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 85,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 209
   },
   {
     "id": "210-granbull",
@@ -3117,7 +3382,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 131,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 210
   },
   {
     "id": "211-qwilfish",
@@ -3129,7 +3395,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 138,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 211
   },
   {
     "id": "211-hisuian",
@@ -3142,7 +3409,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 151,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10234
   },
   {
     "id": "212-scizor",
@@ -3154,7 +3422,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 236,
     "def": 181,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 212
   },
   {
     "id": "212-mega-normal",
@@ -3167,7 +3436,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 279,
     "def": 250,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10046
   },
   {
     "id": "213-shuckle",
@@ -3179,7 +3449,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 17,
     "def": 396,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 213
   },
   {
     "id": "214-heracross",
@@ -3191,7 +3462,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 234,
     "def": 179,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 214
   },
   {
     "id": "214-mega-normal",
@@ -3204,7 +3476,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 334,
     "def": 223,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10047
   },
   {
     "id": "215-sneasel",
@@ -3216,7 +3489,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 189,
     "def": 146,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 215
   },
   {
     "id": "215-hisuian",
@@ -3229,7 +3503,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 189,
     "def": 146,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10235
   },
   {
     "id": "216-teddiursa",
@@ -3240,7 +3515,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 93,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 216
   },
   {
     "id": "217-ursaring",
@@ -3251,7 +3527,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 236,
     "def": 144,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 217
   },
   {
     "id": "218-slugma",
@@ -3262,7 +3539,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 71,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 218
   },
   {
     "id": "219-magcargo",
@@ -3274,7 +3552,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 191,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 219
   },
   {
     "id": "220-swinub",
@@ -3286,7 +3565,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 90,
     "def": 69,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 220
   },
   {
     "id": "221-piloswine",
@@ -3298,7 +3578,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 181,
     "def": 138,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 221
   },
   {
     "id": "222-corsola",
@@ -3310,7 +3591,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 156,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 222
   },
   {
     "id": "222-galarian",
@@ -3322,7 +3604,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 182,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10173
   },
   {
     "id": "223-remoraid",
@@ -3333,7 +3616,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 127,
     "def": 69,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 223
   },
   {
     "id": "224-octillery",
@@ -3344,7 +3628,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 197,
     "def": 141,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 224
   },
   {
     "id": "225-delibird",
@@ -3356,7 +3641,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 128,
     "def": 90,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 225
   },
   {
     "id": "226-mantine",
@@ -3368,7 +3654,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 226,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 226
   },
   {
     "id": "227-skarmory",
@@ -3380,7 +3667,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 226,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 227
   },
   {
     "id": "228-houndour",
@@ -3392,7 +3680,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 152,
     "def": 83,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 228
   },
   {
     "id": "229-houndoom",
@@ -3404,7 +3693,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 224,
     "def": 144,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 229
   },
   {
     "id": "229-mega-normal",
@@ -3417,7 +3707,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 289,
     "def": 194,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10048
   },
   {
     "id": "230-kingdra",
@@ -3429,7 +3720,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 194,
     "def": 194,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 230
   },
   {
     "id": "231-phanpy",
@@ -3440,7 +3732,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 98,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 231
   },
   {
     "id": "232-donphan",
@@ -3451,7 +3744,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 185,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 232
   },
   {
     "id": "233-porygon2",
@@ -3462,7 +3756,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 180,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 233
   },
   {
     "id": "234-stantler",
@@ -3473,7 +3768,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 131,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 234
   },
   {
     "id": "235-smeargle",
@@ -3484,7 +3780,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 40,
     "def": 83,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 235
   },
   {
     "id": "236-tyrogue",
@@ -3495,7 +3792,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 64,
     "def": 64,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 236
   },
   {
     "id": "237-hitmontop",
@@ -3506,7 +3804,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 207,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 237
   },
   {
     "id": "238-smoochum",
@@ -3518,7 +3817,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 91,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 238
   },
   {
     "id": "239-elekid",
@@ -3529,7 +3829,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 101,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 239
   },
   {
     "id": "240-magby",
@@ -3540,7 +3841,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 99,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 240
   },
   {
     "id": "241-miltank",
@@ -3551,7 +3853,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 157,
     "def": 193,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 241
   },
   {
     "id": "242-blissey",
@@ -3562,7 +3865,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 129,
     "def": 169,
-    "sta": 496
+    "sta": 496,
+    "spriteId": 242
   },
   {
     "id": "243-raikou",
@@ -3573,7 +3877,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 241,
     "def": 195,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 243
   },
   {
     "id": "244-entei",
@@ -3584,7 +3889,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 235,
     "def": 171,
-    "sta": 251
+    "sta": 251,
+    "spriteId": 244
   },
   {
     "id": "245-suicune",
@@ -3595,7 +3901,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 235,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 245
   },
   {
     "id": "246-larvitar",
@@ -3607,7 +3914,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 93,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 246
   },
   {
     "id": "247-pupitar",
@@ -3619,7 +3927,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 133,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 247
   },
   {
     "id": "248-tyranitar",
@@ -3631,7 +3940,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 251,
     "def": 207,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 248
   },
   {
     "id": "248-mega-normal",
@@ -3644,7 +3954,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 309,
     "def": 276,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 10049
   },
   {
     "id": "249-lugia",
@@ -3656,7 +3967,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 193,
     "def": 310,
-    "sta": 235
+    "sta": 235,
+    "spriteId": 249
   },
   {
     "id": "250-ho_oh",
@@ -3668,7 +3980,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 239,
     "def": 244,
-    "sta": 214
+    "sta": 214,
+    "spriteId": 250
   },
   {
     "id": "251-celebi",
@@ -3680,7 +3993,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 210,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 251
   },
   {
     "id": "252-treecko",
@@ -3691,7 +4005,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 94,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 252
   },
   {
     "id": "253-grovyle",
@@ -3702,7 +4017,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 120,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 253
   },
   {
     "id": "254-sceptile",
@@ -3713,7 +4029,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 169,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 254
   },
   {
     "id": "254-mega-normal",
@@ -3726,7 +4043,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 320,
     "def": 186,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10065
   },
   {
     "id": "255-torchic",
@@ -3737,7 +4055,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 130,
     "def": 87,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 255
   },
   {
     "id": "256-combusken",
@@ -3749,7 +4068,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 115,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 256
   },
   {
     "id": "257-blaziken",
@@ -3761,7 +4081,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 240,
     "def": 141,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 257
   },
   {
     "id": "257-mega-normal",
@@ -3774,7 +4095,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 329,
     "def": 168,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10050
   },
   {
     "id": "258-mudkip",
@@ -3785,7 +4107,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 126,
     "def": 93,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 258
   },
   {
     "id": "259-marshtomp",
@@ -3797,7 +4120,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 133,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 259
   },
   {
     "id": "260-swampert",
@@ -3809,7 +4133,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 175,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 260
   },
   {
     "id": "260-mega-normal",
@@ -3822,7 +4147,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 283,
     "def": 218,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 10064
   },
   {
     "id": "261-poochyena",
@@ -3833,7 +4159,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 61,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 261
   },
   {
     "id": "262-mightyena",
@@ -3844,7 +4171,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 132,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 262
   },
   {
     "id": "263-zigzagoon",
@@ -3855,7 +4183,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 58,
     "def": 80,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 263
   },
   {
     "id": "263-galarian",
@@ -3868,7 +4197,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 58,
     "def": 80,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 10174
   },
   {
     "id": "264-linoone",
@@ -3879,7 +4209,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 128,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 264
   },
   {
     "id": "264-galarian",
@@ -3892,7 +4223,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 128,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 10175
   },
   {
     "id": "265-wurmple",
@@ -3903,7 +4235,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 75,
     "def": 59,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 265
   },
   {
     "id": "266-silcoon",
@@ -3914,7 +4247,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 60,
     "def": 77,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 266
   },
   {
     "id": "267-beautifly",
@@ -3926,7 +4260,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 189,
     "def": 98,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 267
   },
   {
     "id": "268-cascoon",
@@ -3937,7 +4272,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 60,
     "def": 77,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 268
   },
   {
     "id": "269-dustox",
@@ -3949,7 +4285,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 162,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 269
   },
   {
     "id": "270-lotad",
@@ -3961,7 +4298,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 71,
     "def": 77,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 270
   },
   {
     "id": "271-lombre",
@@ -3973,7 +4311,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 119,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 271
   },
   {
     "id": "272-ludicolo",
@@ -3985,7 +4324,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 176,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 272
   },
   {
     "id": "273-seedot",
@@ -3996,7 +4336,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 71,
     "def": 77,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 273
   },
   {
     "id": "274-nuzleaf",
@@ -4008,7 +4349,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 78,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 274
   },
   {
     "id": "275-shiftry",
@@ -4020,7 +4362,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 200,
     "def": 121,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 275
   },
   {
     "id": "276-taillow",
@@ -4032,7 +4375,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 106,
     "def": 61,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 276
   },
   {
     "id": "277-swellow",
@@ -4044,7 +4388,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 185,
     "def": 124,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 277
   },
   {
     "id": "278-wingull",
@@ -4056,7 +4401,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 106,
     "def": 61,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 278
   },
   {
     "id": "279-pelipper",
@@ -4068,7 +4414,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 174,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 279
   },
   {
     "id": "280-ralts",
@@ -4080,7 +4427,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 79,
     "def": 59,
-    "sta": 99
+    "sta": 99,
+    "spriteId": 280
   },
   {
     "id": "281-kirlia",
@@ -4092,7 +4440,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 90,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 281
   },
   {
     "id": "282-gardevoir",
@@ -4104,7 +4453,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 237,
     "def": 195,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 282
   },
   {
     "id": "282-mega-normal",
@@ -4117,7 +4467,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 326,
     "def": 229,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 10051
   },
   {
     "id": "283-surskit",
@@ -4129,7 +4480,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 93,
     "def": 87,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 283
   },
   {
     "id": "284-masquerain",
@@ -4141,7 +4493,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 150,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 284
   },
   {
     "id": "285-shroomish",
@@ -4152,7 +4505,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 74,
     "def": 110,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 285
   },
   {
     "id": "286-breloom",
@@ -4164,7 +4518,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 241,
     "def": 144,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 286
   },
   {
     "id": "287-slakoth",
@@ -4175,7 +4530,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 92,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 287
   },
   {
     "id": "288-vigoroth",
@@ -4186,7 +4542,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 145,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 288
   },
   {
     "id": "289-slaking",
@@ -4197,7 +4554,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 290,
     "def": 166,
-    "sta": 284
+    "sta": 284,
+    "spriteId": 289
   },
   {
     "id": "290-nincada",
@@ -4209,7 +4567,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 80,
     "def": 126,
-    "sta": 104
+    "sta": 104,
+    "spriteId": 290
   },
   {
     "id": "291-ninjask",
@@ -4221,7 +4580,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 199,
     "def": 112,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 291
   },
   {
     "id": "292-shedinja",
@@ -4233,7 +4593,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 73,
-    "sta": 1
+    "sta": 1,
+    "spriteId": 292
   },
   {
     "id": "293-whismur",
@@ -4244,7 +4605,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 92,
     "def": 42,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 293
   },
   {
     "id": "294-loudred",
@@ -4255,7 +4617,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 81,
-    "sta": 197
+    "sta": 197,
+    "spriteId": 294
   },
   {
     "id": "295-exploud",
@@ -4266,7 +4629,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 179,
     "def": 137,
-    "sta": 232
+    "sta": 232,
+    "spriteId": 295
   },
   {
     "id": "296-makuhita",
@@ -4277,7 +4641,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 99,
     "def": 54,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 296
   },
   {
     "id": "297-hariyama",
@@ -4288,7 +4653,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 209,
     "def": 114,
-    "sta": 302
+    "sta": 302,
+    "spriteId": 297
   },
   {
     "id": "298-azurill",
@@ -4300,7 +4666,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 36,
     "def": 71,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 298
   },
   {
     "id": "299-nosepass",
@@ -4311,7 +4678,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 82,
     "def": 215,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 299
   },
   {
     "id": "300-skitty",
@@ -4322,7 +4690,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 84,
     "def": 79,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 300
   },
   {
     "id": "301-delcatty",
@@ -4333,7 +4702,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 127,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 301
   },
   {
     "id": "302-sableye",
@@ -4345,7 +4715,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 141,
     "def": 136,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 302
   },
   {
     "id": "302-mega-normal",
@@ -4358,7 +4729,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 216,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10066
   },
   {
     "id": "303-mawile",
@@ -4370,7 +4742,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 141,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 303
   },
   {
     "id": "303-mega-normal",
@@ -4383,7 +4756,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 217,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10052
   },
   {
     "id": "304-aron",
@@ -4395,7 +4769,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 141,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 304
   },
   {
     "id": "305-lairon",
@@ -4407,7 +4782,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 198,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 305
   },
   {
     "id": "306-aggron",
@@ -4419,7 +4795,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 257,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 306
   },
   {
     "id": "306-mega-normal",
@@ -4431,7 +4808,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 247,
     "def": 331,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10053
   },
   {
     "id": "307-meditite",
@@ -4443,7 +4821,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 78,
     "def": 107,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 307
   },
   {
     "id": "308-medicham",
@@ -4455,7 +4834,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 152,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 308
   },
   {
     "id": "308-mega-normal",
@@ -4468,7 +4848,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 179,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10054
   },
   {
     "id": "309-electrike",
@@ -4479,7 +4860,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 123,
     "def": 78,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 309
   },
   {
     "id": "310-manectric",
@@ -4490,7 +4872,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 215,
     "def": 127,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 310
   },
   {
     "id": "310-mega-normal",
@@ -4502,7 +4885,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 286,
     "def": 179,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10055
   },
   {
     "id": "311-plusle",
@@ -4513,7 +4897,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 167,
     "def": 129,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 311
   },
   {
     "id": "312-minun",
@@ -4524,7 +4909,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 147,
     "def": 150,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 312
   },
   {
     "id": "313-volbeat",
@@ -4535,7 +4921,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 143,
     "def": 166,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 313
   },
   {
     "id": "314-illumise",
@@ -4546,7 +4933,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 143,
     "def": 166,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 314
   },
   {
     "id": "315-roselia",
@@ -4558,7 +4946,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 131,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 315
   },
   {
     "id": "316-gulpin",
@@ -4569,7 +4958,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 80,
     "def": 99,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 316
   },
   {
     "id": "317-swalot",
@@ -4580,7 +4970,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 140,
     "def": 159,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 317
   },
   {
     "id": "318-carvanha",
@@ -4592,7 +4983,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 39,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 318
   },
   {
     "id": "319-sharpedo",
@@ -4604,7 +4996,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 83,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 319
   },
   {
     "id": "319-mega-normal",
@@ -4617,7 +5010,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 289,
     "def": 144,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10070
   },
   {
     "id": "320-wailmer",
@@ -4628,7 +5022,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 68,
-    "sta": 277
+    "sta": 277,
+    "spriteId": 320
   },
   {
     "id": "321-wailord",
@@ -4639,7 +5034,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 87,
-    "sta": 347
+    "sta": 347,
+    "spriteId": 321
   },
   {
     "id": "322-numel",
@@ -4651,7 +5047,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 79,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 322
   },
   {
     "id": "323-camerupt",
@@ -4663,7 +5060,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 194,
     "def": 136,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 323
   },
   {
     "id": "323-mega-normal",
@@ -4676,7 +5074,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 253,
     "def": 183,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10087
   },
   {
     "id": "324-torkoal",
@@ -4687,7 +5086,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 203,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 324
   },
   {
     "id": "325-spoink",
@@ -4698,7 +5098,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 125,
     "def": 122,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 325
   },
   {
     "id": "326-grumpig",
@@ -4709,7 +5110,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 188,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 326
   },
   {
     "id": "327-spinda",
@@ -4720,7 +5122,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 116,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 327
   },
   {
     "id": "328-trapinch",
@@ -4731,7 +5134,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 78,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 328
   },
   {
     "id": "329-vibrava",
@@ -4743,7 +5147,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 99,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 329
   },
   {
     "id": "330-flygon",
@@ -4755,7 +5160,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 168,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 330
   },
   {
     "id": "331-cacnea",
@@ -4766,7 +5172,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 74,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 331
   },
   {
     "id": "332-cacturne",
@@ -4778,7 +5185,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 115,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 332
   },
   {
     "id": "333-swablu",
@@ -4790,7 +5198,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 76,
     "def": 132,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 333
   },
   {
     "id": "334-altaria",
@@ -4802,7 +5211,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 141,
     "def": 201,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 334
   },
   {
     "id": "334-mega-normal",
@@ -4815,7 +5225,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 218,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10067
   },
   {
     "id": "335-zangoose",
@@ -4826,7 +5237,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 124,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 335
   },
   {
     "id": "336-seviper",
@@ -4837,7 +5249,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 118,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 336
   },
   {
     "id": "337-lunatone",
@@ -4849,7 +5262,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 153,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 337
   },
   {
     "id": "338-solrock",
@@ -4861,7 +5275,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 153,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 338
   },
   {
     "id": "339-barboach",
@@ -4873,7 +5288,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 93,
     "def": 82,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 339
   },
   {
     "id": "340-whiscash",
@@ -4885,7 +5301,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 141,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 340
   },
   {
     "id": "341-corphish",
@@ -4896,7 +5313,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 141,
     "def": 99,
-    "sta": 125
+    "sta": 125,
+    "spriteId": 341
   },
   {
     "id": "342-crawdaunt",
@@ -4908,7 +5326,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 224,
     "def": 142,
-    "sta": 160
+    "sta": 160,
+    "spriteId": 342
   },
   {
     "id": "343-baltoy",
@@ -4920,7 +5339,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 77,
     "def": 124,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 343
   },
   {
     "id": "344-claydol",
@@ -4932,7 +5352,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 140,
     "def": 229,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 344
   },
   {
     "id": "345-lileep",
@@ -4944,7 +5365,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 150,
-    "sta": 165
+    "sta": 165,
+    "spriteId": 345
   },
   {
     "id": "346-cradily",
@@ -4956,7 +5378,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 152,
     "def": 194,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 346
   },
   {
     "id": "347-anorith",
@@ -4968,7 +5391,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 100,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 347
   },
   {
     "id": "348-armaldo",
@@ -4980,7 +5404,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 174,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 348
   },
   {
     "id": "349-feebas",
@@ -4991,7 +5416,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 29,
     "def": 85,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 349
   },
   {
     "id": "350-milotic",
@@ -5002,7 +5428,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 219,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 350
   },
   {
     "id": "351-castform",
@@ -5013,7 +5440,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 139,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 351
   },
   {
     "id": "351-rainy",
@@ -5025,7 +5453,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 139,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10014
   },
   {
     "id": "351-snowy",
@@ -5037,7 +5466,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 139,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10015
   },
   {
     "id": "351-sunny",
@@ -5049,7 +5479,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 139,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10013
   },
   {
     "id": "352-kecleon",
@@ -5060,7 +5491,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 189,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 352
   },
   {
     "id": "353-shuppet",
@@ -5071,7 +5503,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 138,
     "def": 65,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 353
   },
   {
     "id": "354-banette",
@@ -5082,7 +5515,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 126,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 354
   },
   {
     "id": "354-mega-normal",
@@ -5094,7 +5528,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 312,
     "def": 160,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 10056
   },
   {
     "id": "355-duskull",
@@ -5105,7 +5540,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 70,
     "def": 162,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 355
   },
   {
     "id": "356-dusclops",
@@ -5116,7 +5552,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 234,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 356
   },
   {
     "id": "357-tropius",
@@ -5128,7 +5565,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 163,
-    "sta": 223
+    "sta": 223,
+    "spriteId": 357
   },
   {
     "id": "358-chimecho",
@@ -5139,7 +5577,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 170,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 358
   },
   {
     "id": "359-absol",
@@ -5150,7 +5589,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 246,
     "def": 120,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 359
   },
   {
     "id": "359-mega-normal",
@@ -5162,7 +5602,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 314,
     "def": 130,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10057
   },
   {
     "id": "360-wynaut",
@@ -5173,7 +5614,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 41,
     "def": 86,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 360
   },
   {
     "id": "361-snorunt",
@@ -5184,7 +5626,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 95,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 361
   },
   {
     "id": "362-glalie",
@@ -5195,7 +5638,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 162,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 362
   },
   {
     "id": "362-mega-normal",
@@ -5207,7 +5651,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 252,
     "def": 168,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10074
   },
   {
     "id": "363-spheal",
@@ -5219,7 +5664,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 90,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 363
   },
   {
     "id": "364-sealeo",
@@ -5231,7 +5677,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 132,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 364
   },
   {
     "id": "365-walrein",
@@ -5243,7 +5690,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 176,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 365
   },
   {
     "id": "366-clamperl",
@@ -5254,7 +5702,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 133,
     "def": 135,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 366
   },
   {
     "id": "367-huntail",
@@ -5265,7 +5714,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 197,
     "def": 179,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 367
   },
   {
     "id": "368-gorebyss",
@@ -5276,7 +5726,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 179,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 368
   },
   {
     "id": "369-relicanth",
@@ -5288,7 +5739,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 203,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 369
   },
   {
     "id": "370-luvdisc",
@@ -5299,7 +5751,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 81,
     "def": 128,
-    "sta": 125
+    "sta": 125,
+    "spriteId": 370
   },
   {
     "id": "371-bagon",
@@ -5310,7 +5763,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 93,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 371
   },
   {
     "id": "372-shelgon",
@@ -5321,7 +5775,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 155,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 372
   },
   {
     "id": "373-salamence",
@@ -5333,7 +5788,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 277,
     "def": 168,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 373
   },
   {
     "id": "373-mega-normal",
@@ -5346,7 +5802,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 310,
     "def": 251,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10089
   },
   {
     "id": "374-beldum",
@@ -5358,7 +5815,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 132,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 374
   },
   {
     "id": "375-metang",
@@ -5370,7 +5828,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 138,
     "def": 176,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 375
   },
   {
     "id": "376-metagross",
@@ -5382,7 +5841,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 257,
     "def": 228,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 376
   },
   {
     "id": "376-mega-normal",
@@ -5395,7 +5855,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 300,
     "def": 289,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10076
   },
   {
     "id": "377-regirock",
@@ -5406,7 +5867,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 179,
     "def": 309,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 377
   },
   {
     "id": "378-regice",
@@ -5417,7 +5879,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 179,
     "def": 309,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 378
   },
   {
     "id": "379-registeel",
@@ -5428,7 +5891,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 143,
     "def": 285,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 379
   },
   {
     "id": "380-latias",
@@ -5440,7 +5904,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 228,
     "def": 246,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 380
   },
   {
     "id": "380-mega-normal",
@@ -5453,7 +5918,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 289,
     "def": 297,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10062
   },
   {
     "id": "381-latios",
@@ -5465,7 +5931,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 268,
     "def": 212,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 381
   },
   {
     "id": "381-mega-normal",
@@ -5478,7 +5945,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 335,
     "def": 241,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 10063
   },
   {
     "id": "382-kyogre",
@@ -5489,7 +5957,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 270,
     "def": 228,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 382
   },
   {
     "id": "382-mega-normal",
@@ -5501,7 +5970,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 353,
     "def": 268,
-    "sta": 218
+    "sta": 218,
+    "spriteId": 382
   },
   {
     "id": "383-groudon",
@@ -5512,7 +5982,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 270,
     "def": 228,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 383
   },
   {
     "id": "383-mega-normal",
@@ -5525,7 +5996,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 353,
     "def": 268,
-    "sta": 218
+    "sta": 218,
+    "spriteId": 383
   },
   {
     "id": "384-rayquaza",
@@ -5537,7 +6009,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 284,
     "def": 170,
-    "sta": 213
+    "sta": 213,
+    "spriteId": 384
   },
   {
     "id": "384-mega-normal",
@@ -5550,7 +6023,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 377,
     "def": 210,
-    "sta": 227
+    "sta": 227,
+    "spriteId": 10079
   },
   {
     "id": "385-jirachi",
@@ -5562,7 +6036,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 210,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 385
   },
   {
     "id": "386-deoxys",
@@ -5573,7 +6048,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 345,
     "def": 115,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 386
   },
   {
     "id": "386-attack",
@@ -5585,7 +6061,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 414,
     "def": 46,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10001
   },
   {
     "id": "386-defense",
@@ -5597,7 +6074,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 330,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10002
   },
   {
     "id": "386-speed",
@@ -5609,7 +6087,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 230,
     "def": 218,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10003
   },
   {
     "id": "387-turtwig",
@@ -5620,7 +6099,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 110,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 387
   },
   {
     "id": "388-grotle",
@@ -5631,7 +6111,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 157,
     "def": 143,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 388
   },
   {
     "id": "389-torterra",
@@ -5643,7 +6124,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 202,
     "def": 188,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 389
   },
   {
     "id": "390-chimchar",
@@ -5654,7 +6136,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 113,
     "def": 86,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 390
   },
   {
     "id": "391-monferno",
@@ -5666,7 +6149,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 105,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 391
   },
   {
     "id": "392-infernape",
@@ -5678,7 +6162,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 151,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 392
   },
   {
     "id": "393-piplup",
@@ -5689,7 +6174,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 102,
-    "sta": 142
+    "sta": 142,
+    "spriteId": 393
   },
   {
     "id": "394-prinplup",
@@ -5700,7 +6186,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 139,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 394
   },
   {
     "id": "395-empoleon",
@@ -5712,7 +6199,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 186,
-    "sta": 197
+    "sta": 197,
+    "spriteId": 395
   },
   {
     "id": "396-starly",
@@ -5724,7 +6212,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 101,
     "def": 58,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 396
   },
   {
     "id": "397-staravia",
@@ -5736,7 +6225,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 94,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 397
   },
   {
     "id": "398-staraptor",
@@ -5748,7 +6238,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 234,
     "def": 140,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 398
   },
   {
     "id": "399-bidoof",
@@ -5759,7 +6250,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 80,
     "def": 73,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 399
   },
   {
     "id": "400-bibarel",
@@ -5771,7 +6263,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 119,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 400
   },
   {
     "id": "401-kricketot",
@@ -5782,7 +6275,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 45,
     "def": 74,
-    "sta": 114
+    "sta": 114,
+    "spriteId": 401
   },
   {
     "id": "402-kricketune",
@@ -5793,7 +6287,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 160,
     "def": 100,
-    "sta": 184
+    "sta": 184,
+    "spriteId": 402
   },
   {
     "id": "403-shinx",
@@ -5804,7 +6299,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 64,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 403
   },
   {
     "id": "404-luxio",
@@ -5815,7 +6311,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 95,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 404
   },
   {
     "id": "405-luxray",
@@ -5826,7 +6323,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 156,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 405
   },
   {
     "id": "406-budew",
@@ -5838,7 +6336,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 91,
     "def": 109,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 406
   },
   {
     "id": "407-roserade",
@@ -5850,7 +6349,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 185,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 407
   },
   {
     "id": "408-cranidos",
@@ -5861,7 +6361,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 71,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 408
   },
   {
     "id": "409-rampardos",
@@ -5872,7 +6373,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 295,
     "def": 109,
-    "sta": 219
+    "sta": 219,
+    "spriteId": 409
   },
   {
     "id": "410-shieldon",
@@ -5884,7 +6386,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 76,
     "def": 195,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 410
   },
   {
     "id": "411-bastiodon",
@@ -5896,7 +6399,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 94,
     "def": 286,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 411
   },
   {
     "id": "412-burmy",
@@ -5907,7 +6411,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 53,
     "def": 83,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 412
   },
   {
     "id": "413-wormadam",
@@ -5919,7 +6424,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 141,
     "def": 180,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 413
   },
   {
     "id": "413-sandy",
@@ -5932,7 +6438,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 141,
     "def": 180,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10004
   },
   {
     "id": "413-trash",
@@ -5945,7 +6452,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 127,
     "def": 175,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 10005
   },
   {
     "id": "414-mothim",
@@ -5957,7 +6465,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 185,
     "def": 98,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 414
   },
   {
     "id": "415-combee",
@@ -5969,7 +6478,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 59,
     "def": 83,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 415
   },
   {
     "id": "416-vespiquen",
@@ -5981,7 +6491,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 149,
     "def": 190,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 416
   },
   {
     "id": "417-pachirisu",
@@ -5992,7 +6503,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 94,
     "def": 172,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 417
   },
   {
     "id": "418-buizel",
@@ -6003,7 +6515,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 67,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 418
   },
   {
     "id": "419-floatzel",
@@ -6014,7 +6527,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 114,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 419
   },
   {
     "id": "420-cherubi",
@@ -6025,7 +6539,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 92,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 420
   },
   {
     "id": "421-cherrim",
@@ -6036,7 +6551,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 153,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 421
   },
   {
     "id": "422-shellos",
@@ -6047,7 +6563,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 103,
     "def": 105,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 422
   },
   {
     "id": "423-gastrodon",
@@ -6059,7 +6576,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 143,
-    "sta": 244
+    "sta": 244,
+    "spriteId": 423
   },
   {
     "id": "424-ambipom",
@@ -6070,7 +6588,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 143,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 424
   },
   {
     "id": "425-drifloon",
@@ -6082,7 +6601,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 80,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 425
   },
   {
     "id": "426-drifblim",
@@ -6094,7 +6614,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 102,
-    "sta": 312
+    "sta": 312,
+    "spriteId": 426
   },
   {
     "id": "427-buneary",
@@ -6105,7 +6626,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 130,
     "def": 105,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 427
   },
   {
     "id": "428-lopunny",
@@ -6116,7 +6638,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 194,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 428
   },
   {
     "id": "428-mega-normal",
@@ -6129,7 +6652,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 282,
     "def": 214,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 10088
   },
   {
     "id": "429-mismagius",
@@ -6140,7 +6664,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 187,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 429
   },
   {
     "id": "430-honchkrow",
@@ -6152,7 +6677,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 103,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 430
   },
   {
     "id": "431-glameow",
@@ -6163,7 +6689,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 82,
-    "sta": 135
+    "sta": 135,
+    "spriteId": 431
   },
   {
     "id": "432-purugly",
@@ -6174,7 +6701,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 133,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 432
   },
   {
     "id": "433-chingling",
@@ -6185,7 +6713,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 114,
     "def": 94,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 433
   },
   {
     "id": "434-stunky",
@@ -6197,7 +6726,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 90,
-    "sta": 160
+    "sta": 160,
+    "spriteId": 434
   },
   {
     "id": "435-skuntank",
@@ -6209,7 +6739,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 132,
-    "sta": 230
+    "sta": 230,
+    "spriteId": 435
   },
   {
     "id": "436-bronzor",
@@ -6221,7 +6752,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 43,
     "def": 154,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 436
   },
   {
     "id": "437-bronzong",
@@ -6233,7 +6765,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 213,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 437
   },
   {
     "id": "438-bonsly",
@@ -6244,7 +6777,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 133,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 438
   },
   {
     "id": "439-mime_jr_",
@@ -6256,7 +6790,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 125,
     "def": 142,
-    "sta": 85
+    "sta": 85,
+    "spriteId": 439
   },
   {
     "id": "440-happiny",
@@ -6267,7 +6802,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 25,
     "def": 77,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 440
   },
   {
     "id": "441-chatot",
@@ -6279,7 +6815,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 183,
     "def": 91,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 441
   },
   {
     "id": "442-spiritomb",
@@ -6291,7 +6828,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 199,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 442
   },
   {
     "id": "443-gible",
@@ -6303,7 +6841,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 84,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 443
   },
   {
     "id": "444-gabite",
@@ -6315,7 +6854,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 125,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 444
   },
   {
     "id": "445-garchomp",
@@ -6327,7 +6867,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 193,
-    "sta": 239
+    "sta": 239,
+    "spriteId": 445
   },
   {
     "id": "445-mega-normal",
@@ -6340,7 +6881,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 339,
     "def": 222,
-    "sta": 239
+    "sta": 239,
+    "spriteId": 10058
   },
   {
     "id": "446-munchlax",
@@ -6351,7 +6893,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 117,
-    "sta": 286
+    "sta": 286,
+    "spriteId": 446
   },
   {
     "id": "447-riolu",
@@ -6362,7 +6905,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 127,
     "def": 78,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 447
   },
   {
     "id": "448-lucario",
@@ -6374,7 +6918,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 236,
     "def": 144,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 448
   },
   {
     "id": "448-mega-normal",
@@ -6387,7 +6932,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 310,
     "def": 175,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10059
   },
   {
     "id": "449-hippopotas",
@@ -6398,7 +6944,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 118,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 449
   },
   {
     "id": "450-hippowdon",
@@ -6409,7 +6956,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 191,
-    "sta": 239
+    "sta": 239,
+    "spriteId": 450
   },
   {
     "id": "451-skorupi",
@@ -6421,7 +6969,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 93,
     "def": 151,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 451
   },
   {
     "id": "452-drapion",
@@ -6433,7 +6982,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 202,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 452
   },
   {
     "id": "453-croagunk",
@@ -6445,7 +6995,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 76,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 453
   },
   {
     "id": "454-toxicroak",
@@ -6457,7 +7008,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 133,
-    "sta": 195
+    "sta": 195,
+    "spriteId": 454
   },
   {
     "id": "455-carnivine",
@@ -6468,7 +7020,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 187,
     "def": 136,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 455
   },
   {
     "id": "456-finneon",
@@ -6479,7 +7032,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 116,
-    "sta": 135
+    "sta": 135,
+    "spriteId": 456
   },
   {
     "id": "457-lumineon",
@@ -6490,7 +7044,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 170,
-    "sta": 170
+    "sta": 170,
+    "spriteId": 457
   },
   {
     "id": "458-mantyke",
@@ -6502,7 +7057,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 179,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 458
   },
   {
     "id": "459-snover",
@@ -6514,7 +7070,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 105,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 459
   },
   {
     "id": "460-abomasnow",
@@ -6526,7 +7083,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 158,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 460
   },
   {
     "id": "460-mega-normal",
@@ -6539,7 +7097,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 240,
     "def": 191,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10060
   },
   {
     "id": "461-weavile",
@@ -6551,7 +7110,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 171,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 461
   },
   {
     "id": "462-magnezone",
@@ -6563,7 +7123,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 205,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 462
   },
   {
     "id": "463-lickilicky",
@@ -6574,7 +7135,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 181,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 463
   },
   {
     "id": "464-rhyperior",
@@ -6586,7 +7148,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 241,
     "def": 190,
-    "sta": 251
+    "sta": 251,
+    "spriteId": 464
   },
   {
     "id": "465-tangrowth",
@@ -6597,7 +7160,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 184,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 465
   },
   {
     "id": "466-electivire",
@@ -6608,7 +7172,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 249,
     "def": 163,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 466
   },
   {
     "id": "467-magmortar",
@@ -6619,7 +7184,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 247,
     "def": 172,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 467
   },
   {
     "id": "468-togekiss",
@@ -6631,7 +7197,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 225,
     "def": 217,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 468
   },
   {
     "id": "469-yanmega",
@@ -6643,7 +7210,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 231,
     "def": 156,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 469
   },
   {
     "id": "470-leafeon",
@@ -6654,7 +7222,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 216,
     "def": 219,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 470
   },
   {
     "id": "471-glaceon",
@@ -6665,7 +7234,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 205,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 471
   },
   {
     "id": "472-gliscor",
@@ -6677,7 +7247,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 185,
     "def": 222,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 472
   },
   {
     "id": "473-mamoswine",
@@ -6689,7 +7260,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 247,
     "def": 146,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 473
   },
   {
     "id": "474-porygon_z",
@@ -6700,7 +7272,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 264,
     "def": 150,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 474
   },
   {
     "id": "475-gallade",
@@ -6712,7 +7285,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 237,
     "def": 195,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 475
   },
   {
     "id": "475-mega-normal",
@@ -6725,7 +7299,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 326,
     "def": 230,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 10068
   },
   {
     "id": "476-probopass",
@@ -6737,7 +7312,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 275,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 476
   },
   {
     "id": "477-dusknoir",
@@ -6748,7 +7324,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 254,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 477
   },
   {
     "id": "478-froslass",
@@ -6760,7 +7337,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 150,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 478
   },
   {
     "id": "479-rotom",
@@ -6772,7 +7350,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 185,
     "def": 159,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 479
   },
   {
     "id": "479-fan",
@@ -6785,7 +7364,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 219,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10011
   },
   {
     "id": "479-frost",
@@ -6798,7 +7378,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 219,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10010
   },
   {
     "id": "479-heat",
@@ -6811,7 +7392,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 219,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10008
   },
   {
     "id": "479-mow",
@@ -6824,7 +7406,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 219,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10012
   },
   {
     "id": "479-wash",
@@ -6837,7 +7420,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 219,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10009
   },
   {
     "id": "480-uxie",
@@ -6848,7 +7432,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 270,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 480
   },
   {
     "id": "481-mesprit",
@@ -6859,7 +7444,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 212,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 481
   },
   {
     "id": "482-azelf",
@@ -6870,7 +7456,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 270,
     "def": 151,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 482
   },
   {
     "id": "483-dialga",
@@ -6882,7 +7469,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 275,
     "def": 211,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 483
   },
   {
     "id": "483-origin",
@@ -6895,7 +7483,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 270,
     "def": 225,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 10245
   },
   {
     "id": "484-palkia",
@@ -6907,7 +7496,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 280,
     "def": 215,
-    "sta": 189
+    "sta": 189,
+    "spriteId": 484
   },
   {
     "id": "484-origin",
@@ -6920,7 +7510,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 286,
     "def": 223,
-    "sta": 189
+    "sta": 189,
+    "spriteId": 10246
   },
   {
     "id": "485-heatran",
@@ -6932,7 +7523,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 251,
     "def": 213,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 485
   },
   {
     "id": "486-regigigas",
@@ -6943,7 +7535,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 287,
     "def": 210,
-    "sta": 221
+    "sta": 221,
+    "spriteId": 486
   },
   {
     "id": "487-giratina",
@@ -6955,7 +7548,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 187,
     "def": 225,
-    "sta": 284
+    "sta": 284,
+    "spriteId": 487
   },
   {
     "id": "487-origin",
@@ -6968,7 +7562,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 225,
     "def": 187,
-    "sta": 284
+    "sta": 284,
+    "spriteId": 10007
   },
   {
     "id": "488-cresselia",
@@ -6979,7 +7574,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 152,
     "def": 258,
-    "sta": 260
+    "sta": 260,
+    "spriteId": 488
   },
   {
     "id": "491-darkrai",
@@ -6990,7 +7586,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 285,
     "def": 198,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 491
   },
   {
     "id": "492-shaymin",
@@ -7001,7 +7598,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 210,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 492
   },
   {
     "id": "492-sky",
@@ -7014,7 +7612,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 166,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 10006
   },
   {
     "id": "494-victini",
@@ -7026,7 +7625,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 210,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 494
   },
   {
     "id": "495-snivy",
@@ -7037,7 +7637,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 88,
     "def": 107,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 495
   },
   {
     "id": "496-servine",
@@ -7048,7 +7649,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 152,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 496
   },
   {
     "id": "497-serperior",
@@ -7059,7 +7661,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 204,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 497
   },
   {
     "id": "498-tepig",
@@ -7070,7 +7673,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 85,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 498
   },
   {
     "id": "499-pignite",
@@ -7082,7 +7686,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 106,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 499
   },
   {
     "id": "500-emboar",
@@ -7094,7 +7699,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 235,
     "def": 127,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 500
   },
   {
     "id": "501-oshawott",
@@ -7105,7 +7711,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 85,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 501
   },
   {
     "id": "502-dewott",
@@ -7116,7 +7723,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 116,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 502
   },
   {
     "id": "503-samurott",
@@ -7127,7 +7735,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 157,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 503
   },
   {
     "id": "503-hisuian",
@@ -7140,7 +7749,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 152,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 10236
   },
   {
     "id": "504-patrat",
@@ -7151,7 +7761,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 73,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 504
   },
   {
     "id": "505-watchog",
@@ -7162,7 +7773,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 139,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 505
   },
   {
     "id": "506-lillipup",
@@ -7173,7 +7785,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 86,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 506
   },
   {
     "id": "507-herdier",
@@ -7184,7 +7797,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 126,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 507
   },
   {
     "id": "508-stoutland",
@@ -7195,7 +7809,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 182,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 508
   },
   {
     "id": "509-purrloin",
@@ -7206,7 +7821,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 73,
-    "sta": 121
+    "sta": 121,
+    "spriteId": 509
   },
   {
     "id": "510-liepard",
@@ -7217,7 +7833,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 187,
     "def": 106,
-    "sta": 162
+    "sta": 162,
+    "spriteId": 510
   },
   {
     "id": "511-pansage",
@@ -7228,7 +7845,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 94,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 511
   },
   {
     "id": "512-simisage",
@@ -7239,7 +7857,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 133,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 512
   },
   {
     "id": "513-pansear",
@@ -7250,7 +7869,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 94,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 513
   },
   {
     "id": "514-simisear",
@@ -7261,7 +7881,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 133,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 514
   },
   {
     "id": "515-panpour",
@@ -7272,7 +7893,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 94,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 515
   },
   {
     "id": "516-simipour",
@@ -7283,7 +7905,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 133,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 516
   },
   {
     "id": "517-munna",
@@ -7294,7 +7917,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 111,
     "def": 92,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 517
   },
   {
     "id": "518-musharna",
@@ -7305,7 +7929,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 183,
     "def": 166,
-    "sta": 253
+    "sta": 253,
+    "spriteId": 518
   },
   {
     "id": "519-pidove",
@@ -7317,7 +7942,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 80,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 519
   },
   {
     "id": "520-tranquill",
@@ -7329,7 +7955,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 107,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 520
   },
   {
     "id": "521-unfezant",
@@ -7341,7 +7968,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 146,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 521
   },
   {
     "id": "522-blitzle",
@@ -7352,7 +7980,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 64,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 522
   },
   {
     "id": "523-zebstrika",
@@ -7363,7 +7992,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 211,
     "def": 136,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 523
   },
   {
     "id": "524-roggenrola",
@@ -7374,7 +8004,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 110,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 524
   },
   {
     "id": "525-boldore",
@@ -7385,7 +8016,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 143,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 525
   },
   {
     "id": "526-gigalith",
@@ -7396,7 +8028,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 201,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 526
   },
   {
     "id": "527-woobat",
@@ -7408,7 +8041,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 107,
     "def": 85,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 527
   },
   {
     "id": "528-swoobat",
@@ -7420,7 +8054,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 161,
     "def": 119,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 528
   },
   {
     "id": "529-drilbur",
@@ -7431,7 +8066,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 154,
     "def": 85,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 529
   },
   {
     "id": "530-excadrill",
@@ -7443,7 +8079,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 255,
     "def": 129,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 530
   },
   {
     "id": "531-audino",
@@ -7454,7 +8091,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 114,
     "def": 163,
-    "sta": 230
+    "sta": 230,
+    "spriteId": 531
   },
   {
     "id": "531-mega-normal",
@@ -7467,7 +8105,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 147,
     "def": 239,
-    "sta": 230
+    "sta": 230,
+    "spriteId": 10069
   },
   {
     "id": "532-timburr",
@@ -7478,7 +8117,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 87,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 532
   },
   {
     "id": "533-gurdurr",
@@ -7489,7 +8129,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 134,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 533
   },
   {
     "id": "534-conkeldurr",
@@ -7500,7 +8141,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 158,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 534
   },
   {
     "id": "535-tympole",
@@ -7511,7 +8153,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 78,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 535
   },
   {
     "id": "536-palpitoad",
@@ -7523,7 +8166,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 128,
     "def": 109,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 536
   },
   {
     "id": "537-seismitoad",
@@ -7535,7 +8179,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 150,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 537
   },
   {
     "id": "538-throh",
@@ -7546,7 +8191,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 160,
-    "sta": 260
+    "sta": 260,
+    "spriteId": 538
   },
   {
     "id": "539-sawk",
@@ -7557,7 +8203,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 231,
     "def": 153,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 539
   },
   {
     "id": "540-sewaddle",
@@ -7569,7 +8216,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 124,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 540
   },
   {
     "id": "541-swadloon",
@@ -7581,7 +8229,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 162,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 541
   },
   {
     "id": "542-leavanny",
@@ -7593,7 +8242,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 165,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 542
   },
   {
     "id": "543-venipede",
@@ -7605,7 +8255,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 83,
     "def": 99,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 543
   },
   {
     "id": "544-whirlipede",
@@ -7617,7 +8268,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 100,
     "def": 173,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 544
   },
   {
     "id": "545-scolipede",
@@ -7629,7 +8281,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 203,
     "def": 175,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 545
   },
   {
     "id": "546-cottonee",
@@ -7641,7 +8294,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 71,
     "def": 111,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 546
   },
   {
     "id": "547-whimsicott",
@@ -7653,7 +8307,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 164,
     "def": 176,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 547
   },
   {
     "id": "548-petilil",
@@ -7664,7 +8319,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 91,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 548
   },
   {
     "id": "549-lilligant",
@@ -7675,7 +8331,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 155,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 549
   },
   {
     "id": "549-hisuian",
@@ -7688,7 +8345,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 159,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10237
   },
   {
     "id": "550-basculin",
@@ -7699,7 +8357,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 189,
     "def": 129,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 550
   },
   {
     "id": "551-sandile",
@@ -7711,7 +8370,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 69,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 551
   },
   {
     "id": "552-krokorok",
@@ -7723,7 +8383,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 90,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 552
   },
   {
     "id": "553-krookodile",
@@ -7735,7 +8396,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 229,
     "def": 158,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 553
   },
   {
     "id": "554-darumaka",
@@ -7746,7 +8408,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 86,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 554
   },
   {
     "id": "554-galarian",
@@ -7758,7 +8421,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 86,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 10176
   },
   {
     "id": "555-darmanitan",
@@ -7769,7 +8433,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 263,
     "def": 114,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 555
   },
   {
     "id": "555-galarian_zen",
@@ -7782,7 +8447,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 323,
     "def": 123,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 10178
   },
   {
     "id": "555-standard",
@@ -7794,7 +8460,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 263,
     "def": 114,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 555
   },
   {
     "id": "555-zen",
@@ -7807,7 +8474,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 202,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 10017
   },
   {
     "id": "556-maractus",
@@ -7818,7 +8486,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 130,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 556
   },
   {
     "id": "557-dwebble",
@@ -7830,7 +8499,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 128,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 557
   },
   {
     "id": "558-crustle",
@@ -7842,7 +8512,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 200,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 558
   },
   {
     "id": "559-scraggy",
@@ -7854,7 +8525,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 132,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 559
   },
   {
     "id": "560-scrafty",
@@ -7866,7 +8538,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 222,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 560
   },
   {
     "id": "561-sigilyph",
@@ -7878,7 +8551,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 167,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 561
   },
   {
     "id": "562-yamask",
@@ -7889,7 +8563,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 141,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 562
   },
   {
     "id": "562-galarian",
@@ -7902,7 +8577,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 141,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 10179
   },
   {
     "id": "563-cofagrigus",
@@ -7913,7 +8589,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 237,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 563
   },
   {
     "id": "564-tirtouga",
@@ -7925,7 +8602,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 146,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 564
   },
   {
     "id": "565-carracosta",
@@ -7937,7 +8615,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 197,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 565
   },
   {
     "id": "566-archen",
@@ -7949,7 +8628,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 213,
     "def": 89,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 566
   },
   {
     "id": "567-archeops",
@@ -7961,7 +8641,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 292,
     "def": 139,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 567
   },
   {
     "id": "568-trubbish",
@@ -7972,7 +8653,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 122,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 568
   },
   {
     "id": "569-garbodor",
@@ -7983,7 +8665,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 181,
     "def": 164,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 569
   },
   {
     "id": "570-zorua",
@@ -7994,7 +8677,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 78,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 570
   },
   {
     "id": "570-hisuian",
@@ -8007,7 +8691,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 79,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 10238
   },
   {
     "id": "571-zoroark",
@@ -8018,7 +8703,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 127,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 571
   },
   {
     "id": "571-hisuian",
@@ -8031,7 +8717,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 128,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10239
   },
   {
     "id": "572-minccino",
@@ -8042,7 +8729,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 80,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 572
   },
   {
     "id": "573-cinccino",
@@ -8053,7 +8741,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 130,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 573
   },
   {
     "id": "574-gothita",
@@ -8064,7 +8753,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 112,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 574
   },
   {
     "id": "575-gothorita",
@@ -8075,7 +8765,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 153,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 575
   },
   {
     "id": "576-gothitelle",
@@ -8086,7 +8777,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 205,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 576
   },
   {
     "id": "577-solosis",
@@ -8097,7 +8789,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 83,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 577
   },
   {
     "id": "578-duosion",
@@ -8108,7 +8801,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 103,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 578
   },
   {
     "id": "579-reuniclus",
@@ -8119,7 +8813,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 148,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 579
   },
   {
     "id": "580-ducklett",
@@ -8131,7 +8826,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 84,
     "def": 96,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 580
   },
   {
     "id": "581-swanna",
@@ -8143,7 +8839,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 132,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 581
   },
   {
     "id": "582-vanillite",
@@ -8154,7 +8851,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 106,
-    "sta": 113
+    "sta": 113,
+    "spriteId": 582
   },
   {
     "id": "583-vanillish",
@@ -8165,7 +8863,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 151,
     "def": 138,
-    "sta": 139
+    "sta": 139,
+    "spriteId": 583
   },
   {
     "id": "584-vanilluxe",
@@ -8176,7 +8875,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 184,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 584
   },
   {
     "id": "585-deerling",
@@ -8188,7 +8888,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 100,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 585
   },
   {
     "id": "586-sawsbuck",
@@ -8200,7 +8901,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 146,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 586
   },
   {
     "id": "587-emolga",
@@ -8212,7 +8914,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 127,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 587
   },
   {
     "id": "588-karrablast",
@@ -8223,7 +8926,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 87,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 588
   },
   {
     "id": "589-escavalier",
@@ -8235,7 +8939,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 187,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 589
   },
   {
     "id": "590-foongus",
@@ -8247,7 +8952,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 97,
     "def": 91,
-    "sta": 170
+    "sta": 170,
+    "spriteId": 590
   },
   {
     "id": "591-amoonguss",
@@ -8259,7 +8965,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 139,
-    "sta": 249
+    "sta": 249,
+    "spriteId": 591
   },
   {
     "id": "592-frillish",
@@ -8271,7 +8978,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 134,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 592
   },
   {
     "id": "593-jellicent",
@@ -8283,7 +8991,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 178,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 593
   },
   {
     "id": "594-alomomola",
@@ -8294,7 +9003,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 138,
     "def": 131,
-    "sta": 338
+    "sta": 338,
+    "spriteId": 594
   },
   {
     "id": "595-joltik",
@@ -8306,7 +9016,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 110,
     "def": 98,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 595
   },
   {
     "id": "596-galvantula",
@@ -8318,7 +9029,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 128,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 596
   },
   {
     "id": "597-ferroseed",
@@ -8330,7 +9042,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 82,
     "def": 155,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 597
   },
   {
     "id": "598-ferrothorn",
@@ -8342,7 +9055,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 223,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 598
   },
   {
     "id": "599-klink",
@@ -8353,7 +9067,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 121,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 599
   },
   {
     "id": "600-klang",
@@ -8364,7 +9079,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 174,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 600
   },
   {
     "id": "601-klinklang",
@@ -8375,7 +9091,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 199,
     "def": 214,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 601
   },
   {
     "id": "602-tynamo",
@@ -8386,7 +9103,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 78,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 602
   },
   {
     "id": "603-eelektrik",
@@ -8397,7 +9115,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 130,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 603
   },
   {
     "id": "604-eelektross",
@@ -8408,7 +9127,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 217,
     "def": 152,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 604
   },
   {
     "id": "605-elgyem",
@@ -8419,7 +9139,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 100,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 605
   },
   {
     "id": "606-beheeyem",
@@ -8430,7 +9151,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 163,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 606
   },
   {
     "id": "607-litwick",
@@ -8442,7 +9164,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 98,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 607
   },
   {
     "id": "608-lampent",
@@ -8454,7 +9177,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 115,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 608
   },
   {
     "id": "609-chandelure",
@@ -8466,7 +9190,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 271,
     "def": 182,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 609
   },
   {
     "id": "610-axew",
@@ -8477,7 +9202,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 154,
     "def": 101,
-    "sta": 130
+    "sta": 130,
+    "spriteId": 610
   },
   {
     "id": "611-fraxure",
@@ -8488,7 +9214,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 123,
-    "sta": 165
+    "sta": 165,
+    "spriteId": 611
   },
   {
     "id": "612-haxorus",
@@ -8499,7 +9226,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 284,
     "def": 172,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 612
   },
   {
     "id": "613-cubchoo",
@@ -8510,7 +9238,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 128,
     "def": 74,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 613
   },
   {
     "id": "614-beartic",
@@ -8521,7 +9250,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 233,
     "def": 152,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 614
   },
   {
     "id": "615-cryogonal",
@@ -8532,7 +9262,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 218,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 615
   },
   {
     "id": "616-shelmet",
@@ -8543,7 +9274,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 72,
     "def": 140,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 616
   },
   {
     "id": "617-accelgor",
@@ -8554,7 +9286,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 220,
     "def": 120,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 617
   },
   {
     "id": "618-stunfisk",
@@ -8566,7 +9299,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 171,
-    "sta": 240
+    "sta": 240,
+    "spriteId": 618
   },
   {
     "id": "618-galarian",
@@ -8579,7 +9313,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 144,
     "def": 171,
-    "sta": 240
+    "sta": 240,
+    "spriteId": 10180
   },
   {
     "id": "619-mienfoo",
@@ -8590,7 +9325,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 160,
     "def": 98,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 619
   },
   {
     "id": "620-mienshao",
@@ -8601,7 +9337,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 258,
     "def": 127,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 620
   },
   {
     "id": "621-druddigon",
@@ -8612,7 +9349,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 213,
     "def": 170,
-    "sta": 184
+    "sta": 184,
+    "spriteId": 621
   },
   {
     "id": "622-golett",
@@ -8624,7 +9362,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 127,
     "def": 92,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 622
   },
   {
     "id": "623-golurk",
@@ -8636,7 +9375,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 154,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 623
   },
   {
     "id": "624-pawniard",
@@ -8648,7 +9388,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 154,
     "def": 114,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 624
   },
   {
     "id": "625-bisharp",
@@ -8660,7 +9401,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 176,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 625
   },
   {
     "id": "626-bouffalant",
@@ -8671,7 +9413,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 195,
     "def": 182,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 626
   },
   {
     "id": "627-rufflet",
@@ -8683,7 +9426,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 97,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 627
   },
   {
     "id": "628-braviary",
@@ -8695,7 +9439,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 152,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 628
   },
   {
     "id": "628-hisuian",
@@ -8708,7 +9453,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 213,
     "def": 137,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 10240
   },
   {
     "id": "629-vullaby",
@@ -8720,7 +9466,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 139,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 629
   },
   {
     "id": "630-mandibuzz",
@@ -8732,7 +9479,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 129,
     "def": 205,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 630
   },
   {
     "id": "631-heatmor",
@@ -8743,7 +9491,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 204,
     "def": 129,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 631
   },
   {
     "id": "632-durant",
@@ -8755,7 +9504,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 217,
     "def": 188,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 632
   },
   {
     "id": "633-deino",
@@ -8767,7 +9517,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 93,
-    "sta": 141
+    "sta": 141,
+    "spriteId": 633
   },
   {
     "id": "634-zweilous",
@@ -8779,7 +9530,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 135,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 634
   },
   {
     "id": "635-hydreigon",
@@ -8791,7 +9543,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 256,
     "def": 188,
-    "sta": 211
+    "sta": 211,
+    "spriteId": 635
   },
   {
     "id": "636-larvesta",
@@ -8803,7 +9556,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 156,
     "def": 107,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 636
   },
   {
     "id": "637-volcarona",
@@ -8815,7 +9569,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 264,
     "def": 189,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 637
   },
   {
     "id": "638-cobalion",
@@ -8827,7 +9582,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 229,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 638
   },
   {
     "id": "639-terrakion",
@@ -8839,7 +9595,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 260,
     "def": 192,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 639
   },
   {
     "id": "640-virizion",
@@ -8851,7 +9608,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 229,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 640
   },
   {
     "id": "641-tornadus",
@@ -8862,7 +9620,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 266,
     "def": 164,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 641
   },
   {
     "id": "641-therian",
@@ -8874,7 +9633,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 189,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 10019
   },
   {
     "id": "642-thundurus",
@@ -8886,7 +9646,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 266,
     "def": 164,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 642
   },
   {
     "id": "642-therian",
@@ -8899,7 +9660,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 295,
     "def": 161,
-    "sta": 188
+    "sta": 188,
+    "spriteId": 10020
   },
   {
     "id": "643-reshiram",
@@ -8911,7 +9673,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 275,
     "def": 211,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 643
   },
   {
     "id": "644-zekrom",
@@ -8923,7 +9686,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 275,
     "def": 211,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 644
   },
   {
     "id": "645-landorus",
@@ -8935,7 +9699,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 182,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 645
   },
   {
     "id": "645-therian",
@@ -8948,7 +9713,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 289,
     "def": 179,
-    "sta": 205
+    "sta": 205,
+    "spriteId": 10021
   },
   {
     "id": "646-kyurem",
@@ -8960,7 +9726,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 246,
     "def": 170,
-    "sta": 245
+    "sta": 245,
+    "spriteId": 646
   },
   {
     "id": "646-black",
@@ -8973,7 +9740,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 310,
     "def": 183,
-    "sta": 245
+    "sta": 245,
+    "spriteId": 10022
   },
   {
     "id": "646-white",
@@ -8986,7 +9754,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 310,
     "def": 183,
-    "sta": 245
+    "sta": 245,
+    "spriteId": 10023
   },
   {
     "id": "647-keldeo",
@@ -8998,7 +9767,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 260,
     "def": 192,
-    "sta": 209
+    "sta": 209,
+    "spriteId": 647
   },
   {
     "id": "648-meloetta",
@@ -9010,7 +9780,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 225,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 648
   },
   {
     "id": "648-pirouette",
@@ -9023,7 +9794,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 269,
     "def": 188,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 10018
   },
   {
     "id": "649-genesect",
@@ -9035,7 +9807,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 252,
     "def": 199,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 649
   },
   {
     "id": "650-chespin",
@@ -9046,7 +9819,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 110,
     "def": 106,
-    "sta": 148
+    "sta": 148,
+    "spriteId": 650
   },
   {
     "id": "651-quilladin",
@@ -9057,7 +9831,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 146,
     "def": 156,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 651
   },
   {
     "id": "652-chesnaught",
@@ -9069,7 +9844,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 204,
-    "sta": 204
+    "sta": 204,
+    "spriteId": 652
   },
   {
     "id": "653-fennekin",
@@ -9080,7 +9856,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 102,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 653
   },
   {
     "id": "654-braixen",
@@ -9091,7 +9868,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 130,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 654
   },
   {
     "id": "655-delphox",
@@ -9103,7 +9881,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 230,
     "def": 189,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 655
   },
   {
     "id": "656-froakie",
@@ -9114,7 +9893,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 84,
-    "sta": 121
+    "sta": 121,
+    "spriteId": 656
   },
   {
     "id": "657-frogadier",
@@ -9125,7 +9905,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 168,
     "def": 114,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 657
   },
   {
     "id": "658-greninja",
@@ -9137,7 +9918,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 223,
     "def": 152,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 658
   },
   {
     "id": "659-bunnelby",
@@ -9148,7 +9930,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 68,
     "def": 72,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 659
   },
   {
     "id": "660-diggersby",
@@ -9160,7 +9943,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 155,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 660
   },
   {
     "id": "661-fletchling",
@@ -9172,7 +9956,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 80,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 661
   },
   {
     "id": "662-fletchinder",
@@ -9184,7 +9969,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 110,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 662
   },
   {
     "id": "663-talonflame",
@@ -9196,7 +9982,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 155,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 663
   },
   {
     "id": "664-scatterbug",
@@ -9207,7 +9994,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 63,
     "def": 63,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 664
   },
   {
     "id": "665-spewpa",
@@ -9218,7 +10006,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 48,
     "def": 89,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 665
   },
   {
     "id": "666-vivillon",
@@ -9230,7 +10019,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 103,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 666
   },
   {
     "id": "667-litleo",
@@ -9242,7 +10032,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 112,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 667
   },
   {
     "id": "668-pyroar",
@@ -9254,7 +10045,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 149,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 668
   },
   {
     "id": "669-flabebe",
@@ -9265,7 +10057,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 120,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 669
   },
   {
     "id": "670-floette",
@@ -9276,7 +10069,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 151,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 670
   },
   {
     "id": "671-florges",
@@ -9287,7 +10081,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 244,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 671
   },
   {
     "id": "672-skiddo",
@@ -9298,7 +10093,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 123,
     "def": 102,
-    "sta": 165
+    "sta": 165,
+    "spriteId": 672
   },
   {
     "id": "673-gogoat",
@@ -9309,7 +10105,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 146,
-    "sta": 265
+    "sta": 265,
+    "spriteId": 673
   },
   {
     "id": "674-pancham",
@@ -9320,7 +10117,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 107,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 674
   },
   {
     "id": "675-pangoro",
@@ -9332,7 +10130,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 146,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 675
   },
   {
     "id": "676-furfrou",
@@ -9343,7 +10142,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 164,
     "def": 167,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 676
   },
   {
     "id": "677-espurr",
@@ -9354,7 +10154,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 120,
     "def": 114,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 677
   },
   {
     "id": "678-meowstic",
@@ -9365,7 +10166,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 166,
     "def": 167,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 678
   },
   {
     "id": "679-honedge",
@@ -9377,7 +10179,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 135,
     "def": 139,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 679
   },
   {
     "id": "680-doublade",
@@ -9389,7 +10192,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 206,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 680
   },
   {
     "id": "681-aegislash",
@@ -9401,7 +10205,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 272,
     "def": 97,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 681
   },
   {
     "id": "681-shield",
@@ -9414,7 +10219,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 97,
     "def": 272,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 681
   },
   {
     "id": "682-spritzee",
@@ -9425,7 +10231,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 110,
     "def": 113,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 682
   },
   {
     "id": "683-aromatisse",
@@ -9436,7 +10243,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 150,
-    "sta": 226
+    "sta": 226,
+    "spriteId": 683
   },
   {
     "id": "684-swirlix",
@@ -9447,7 +10255,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 119,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 684
   },
   {
     "id": "685-slurpuff",
@@ -9458,7 +10267,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 168,
     "def": 163,
-    "sta": 193
+    "sta": 193,
+    "spriteId": 685
   },
   {
     "id": "686-inkay",
@@ -9470,7 +10280,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 95,
-    "sta": 142
+    "sta": 142,
+    "spriteId": 686
   },
   {
     "id": "687-malamar",
@@ -9482,7 +10293,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 165,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 687
   },
   {
     "id": "688-binacle",
@@ -9494,7 +10306,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 96,
     "def": 120,
-    "sta": 123
+    "sta": 123,
+    "spriteId": 688
   },
   {
     "id": "689-barbaracle",
@@ -9506,7 +10319,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 194,
     "def": 205,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 689
   },
   {
     "id": "690-skrelp",
@@ -9518,7 +10332,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 109,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 690
   },
   {
     "id": "691-dragalge",
@@ -9530,7 +10345,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 177,
     "def": 207,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 691
   },
   {
     "id": "692-clauncher",
@@ -9541,7 +10357,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 117,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 692
   },
   {
     "id": "693-clawitzer",
@@ -9552,7 +10369,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 171,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 693
   },
   {
     "id": "694-helioptile",
@@ -9564,7 +10382,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 78,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 694
   },
   {
     "id": "695-heliolisk",
@@ -9576,7 +10395,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 219,
     "def": 168,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 695
   },
   {
     "id": "696-tyrunt",
@@ -9588,7 +10408,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 158,
     "def": 123,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 696
   },
   {
     "id": "697-tyrantrum",
@@ -9600,7 +10421,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 227,
     "def": 191,
-    "sta": 193
+    "sta": 193,
+    "spriteId": 697
   },
   {
     "id": "698-amaura",
@@ -9612,7 +10434,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 109,
-    "sta": 184
+    "sta": 184,
+    "spriteId": 698
   },
   {
     "id": "699-aurorus",
@@ -9624,7 +10447,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 163,
-    "sta": 265
+    "sta": 265,
+    "spriteId": 699
   },
   {
     "id": "700-sylveon",
@@ -9635,7 +10459,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 203,
     "def": 205,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 700
   },
   {
     "id": "701-hawlucha",
@@ -9647,7 +10472,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 195,
     "def": 153,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 701
   },
   {
     "id": "702-dedenne",
@@ -9659,7 +10485,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 164,
     "def": 134,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 702
   },
   {
     "id": "703-carbink",
@@ -9671,7 +10498,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 285,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 703
   },
   {
     "id": "704-goomy",
@@ -9682,7 +10510,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 101,
     "def": 112,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 704
   },
   {
     "id": "705-sliggoo",
@@ -9693,7 +10522,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 176,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 705
   },
   {
     "id": "706-goodra",
@@ -9704,7 +10534,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 220,
     "def": 242,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 706
   },
   {
     "id": "707-klefki",
@@ -9716,7 +10547,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 160,
     "def": 179,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 707
   },
   {
     "id": "708-phantump",
@@ -9728,7 +10560,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 125,
     "def": 103,
-    "sta": 125
+    "sta": 125,
+    "spriteId": 708
   },
   {
     "id": "709-trevenant",
@@ -9740,7 +10573,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 201,
     "def": 154,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 709
   },
   {
     "id": "710-pumpkaboo",
@@ -9752,7 +10586,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 123,
-    "sta": 135
+    "sta": 135,
+    "spriteId": 710
   },
   {
     "id": "710-large",
@@ -9765,7 +10600,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 120,
     "def": 122,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 10028
   },
   {
     "id": "710-small",
@@ -9778,7 +10614,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 124,
-    "sta": 127
+    "sta": 127,
+    "spriteId": 10027
   },
   {
     "id": "710-super",
@@ -9791,7 +10628,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 120,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 10029
   },
   {
     "id": "711-gourgeist",
@@ -9803,7 +10641,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 213,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 711
   },
   {
     "id": "711-large",
@@ -9816,7 +10655,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 179,
     "def": 206,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10031
   },
   {
     "id": "711-small",
@@ -9829,7 +10669,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 219,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 10030
   },
   {
     "id": "711-super",
@@ -9842,7 +10683,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 182,
     "def": 200,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 10032
   },
   {
     "id": "712-bergmite",
@@ -9853,7 +10695,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 120,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 712
   },
   {
     "id": "713-avalugg",
@@ -9864,7 +10707,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 240,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 713
   },
   {
     "id": "713-hisuian",
@@ -9877,7 +10721,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 238,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 10243
   },
   {
     "id": "714-noibat",
@@ -9889,7 +10734,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 83,
     "def": 73,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 714
   },
   {
     "id": "715-noivern",
@@ -9901,7 +10747,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 175,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 715
   },
   {
     "id": "716-xerneas",
@@ -9912,7 +10759,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 185,
-    "sta": 246
+    "sta": 246,
+    "spriteId": 716
   },
   {
     "id": "717-yveltal",
@@ -9924,7 +10772,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 185,
-    "sta": 246
+    "sta": 246,
+    "spriteId": 717
   },
   {
     "id": "718-zygarde",
@@ -9936,7 +10785,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 207,
-    "sta": 389
+    "sta": 389,
+    "spriteId": 718
   },
   {
     "id": "718-complete_fifty_percent",
@@ -9949,7 +10799,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 203,
     "def": 232,
-    "sta": 239
+    "sta": 239,
+    "spriteId": 10120
   },
   {
     "id": "718-complete_ten_percent",
@@ -9962,7 +10813,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 173,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 10181
   },
   {
     "id": "719-diancie",
@@ -9974,7 +10826,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 285,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 719
   },
   {
     "id": "719-mega-normal",
@@ -9987,7 +10840,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 342,
     "def": 235,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 10075
   },
   {
     "id": "720-hoopa",
@@ -9999,7 +10853,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 261,
     "def": 187,
-    "sta": 173
+    "sta": 173,
+    "spriteId": 720
   },
   {
     "id": "720-unbound",
@@ -10012,7 +10867,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 311,
     "def": 191,
-    "sta": 173
+    "sta": 173,
+    "spriteId": 10086
   },
   {
     "id": "721-volcanion",
@@ -10024,7 +10880,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 252,
     "def": 216,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 721
   },
   {
     "id": "722-rowlet",
@@ -10036,7 +10893,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 102,
     "def": 99,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 722
   },
   {
     "id": "723-dartrix",
@@ -10048,7 +10906,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 142,
     "def": 139,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 723
   },
   {
     "id": "724-decidueye",
@@ -10060,7 +10919,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 210,
     "def": 179,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 724
   },
   {
     "id": "724-hisuian",
@@ -10073,7 +10933,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 213,
     "def": 174,
-    "sta": 204
+    "sta": 204,
+    "spriteId": 10244
   },
   {
     "id": "725-litten",
@@ -10084,7 +10945,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 128,
     "def": 79,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 725
   },
   {
     "id": "726-torracat",
@@ -10095,7 +10957,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 174,
     "def": 103,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 726
   },
   {
     "id": "727-incineroar",
@@ -10107,7 +10970,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 175,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 727
   },
   {
     "id": "728-popplio",
@@ -10118,7 +10982,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 120,
     "def": 103,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 728
   },
   {
     "id": "729-brionne",
@@ -10129,7 +10994,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 168,
     "def": 145,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 729
   },
   {
     "id": "730-primarina",
@@ -10141,7 +11007,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 195,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 730
   },
   {
     "id": "731-pikipek",
@@ -10153,7 +11020,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 59,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 731
   },
   {
     "id": "732-trumbeak",
@@ -10165,7 +11033,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 100,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 732
   },
   {
     "id": "733-toucannon",
@@ -10177,7 +11046,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 146,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 733
   },
   {
     "id": "734-yungoos",
@@ -10188,7 +11058,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 56,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 734
   },
   {
     "id": "735-gumshoos",
@@ -10199,7 +11070,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 194,
     "def": 113,
-    "sta": 204
+    "sta": 204,
+    "spriteId": 735
   },
   {
     "id": "736-grubbin",
@@ -10210,7 +11082,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 115,
     "def": 85,
-    "sta": 132
+    "sta": 132,
+    "spriteId": 736
   },
   {
     "id": "737-charjabug",
@@ -10222,7 +11095,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 161,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 737
   },
   {
     "id": "738-vikavolt",
@@ -10234,7 +11108,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 158,
-    "sta": 184
+    "sta": 184,
+    "spriteId": 738
   },
   {
     "id": "739-crabrawler",
@@ -10245,7 +11120,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 150,
     "def": 104,
-    "sta": 132
+    "sta": 132,
+    "spriteId": 739
   },
   {
     "id": "740-crabominable",
@@ -10257,7 +11133,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 231,
     "def": 138,
-    "sta": 219
+    "sta": 219,
+    "spriteId": 740
   },
   {
     "id": "741-oricorio",
@@ -10269,7 +11146,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 145,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 741
   },
   {
     "id": "741-pau",
@@ -10282,7 +11160,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 145,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10124
   },
   {
     "id": "741-pompom",
@@ -10295,7 +11174,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 145,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10123
   },
   {
     "id": "741-sensu",
@@ -10308,7 +11188,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 196,
     "def": 145,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 10125
   },
   {
     "id": "742-cutiefly",
@@ -10320,7 +11201,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 110,
     "def": 81,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 742
   },
   {
     "id": "743-ribombee",
@@ -10332,7 +11214,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 146,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 743
   },
   {
     "id": "744-rockruff",
@@ -10343,7 +11226,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 78,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 744
   },
   {
     "id": "744-dusk",
@@ -10355,7 +11239,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 78,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 744
   },
   {
     "id": "745-lycanroc",
@@ -10366,7 +11251,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 234,
     "def": 139,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 745
   },
   {
     "id": "745-midday",
@@ -10378,7 +11264,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 231,
     "def": 140,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 745
   },
   {
     "id": "745-midnight",
@@ -10390,7 +11277,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 152,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 10126
   },
   {
     "id": "747-mareanie",
@@ -10402,7 +11290,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 110,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 747
   },
   {
     "id": "748-toxapex",
@@ -10414,7 +11303,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 114,
     "def": 273,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 748
   },
   {
     "id": "749-mudbray",
@@ -10425,7 +11315,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 175,
     "def": 121,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 749
   },
   {
     "id": "750-mudsdale",
@@ -10436,7 +11327,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 174,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 750
   },
   {
     "id": "751-dewpider",
@@ -10448,7 +11340,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 72,
     "def": 117,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 751
   },
   {
     "id": "752-araquanid",
@@ -10460,7 +11353,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 126,
     "def": 219,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 752
   },
   {
     "id": "753-fomantis",
@@ -10471,7 +11365,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 100,
     "def": 64,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 753
   },
   {
     "id": "754-lurantis",
@@ -10482,7 +11377,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 169,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 754
   },
   {
     "id": "755-morelull",
@@ -10494,7 +11390,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 108,
     "def": 119,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 755
   },
   {
     "id": "756-shiinotic",
@@ -10506,7 +11403,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 154,
     "def": 168,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 756
   },
   {
     "id": "757-salandit",
@@ -10518,7 +11416,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 80,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 757
   },
   {
     "id": "758-salazzle",
@@ -10530,7 +11429,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 228,
     "def": 130,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 758
   },
   {
     "id": "759-stufful",
@@ -10542,7 +11442,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 136,
     "def": 95,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 759
   },
   {
     "id": "760-bewear",
@@ -10554,7 +11455,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 141,
-    "sta": 260
+    "sta": 260,
+    "spriteId": 760
   },
   {
     "id": "761-bounsweet",
@@ -10565,7 +11467,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 55,
     "def": 69,
-    "sta": 123
+    "sta": 123,
+    "spriteId": 761
   },
   {
     "id": "762-steenee",
@@ -10576,7 +11479,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 78,
     "def": 94,
-    "sta": 141
+    "sta": 141,
+    "spriteId": 762
   },
   {
     "id": "763-tsareena",
@@ -10587,7 +11491,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 195,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 763
   },
   {
     "id": "764-comfey",
@@ -10598,7 +11503,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 215,
-    "sta": 139
+    "sta": 139,
+    "spriteId": 764
   },
   {
     "id": "765-oranguru",
@@ -10610,7 +11516,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 168,
     "def": 192,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 765
   },
   {
     "id": "766-passimian",
@@ -10621,7 +11528,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 160,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 766
   },
   {
     "id": "767-wimpod",
@@ -10633,7 +11541,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 67,
     "def": 74,
-    "sta": 93
+    "sta": 93,
+    "spriteId": 767
   },
   {
     "id": "768-golisopod",
@@ -10645,7 +11554,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 218,
     "def": 226,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 768
   },
   {
     "id": "769-sandygast",
@@ -10657,7 +11567,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 120,
     "def": 118,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 769
   },
   {
     "id": "770-palossand",
@@ -10669,7 +11580,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 178,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 770
   },
   {
     "id": "775-komala",
@@ -10680,7 +11592,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 216,
     "def": 165,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 775
   },
   {
     "id": "776-turtonator",
@@ -10692,7 +11605,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 215,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 776
   },
   {
     "id": "777-togedemaru",
@@ -10704,7 +11618,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 190,
     "def": 145,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 777
   },
   {
     "id": "779-bruxish",
@@ -10716,7 +11631,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 145,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 779
   },
   {
     "id": "780-drampa",
@@ -10728,7 +11644,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 231,
     "def": 164,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 780
   },
   {
     "id": "781-dhelmise",
@@ -10740,7 +11657,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 233,
     "def": 179,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 781
   },
   {
     "id": "782-jangmo_o",
@@ -10751,7 +11669,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 102,
     "def": 108,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 782
   },
   {
     "id": "783-hakamo_o",
@@ -10763,7 +11682,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 162,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 783
   },
   {
     "id": "784-kommo_o",
@@ -10775,7 +11695,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 240,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 784
   },
   {
     "id": "785-tapu_koko",
@@ -10787,7 +11708,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 181,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 785
   },
   {
     "id": "786-tapu_lele",
@@ -10799,7 +11721,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 259,
     "def": 208,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 786
   },
   {
     "id": "787-tapu_bulu",
@@ -10811,7 +11734,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 249,
     "def": 215,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 787
   },
   {
     "id": "788-tapu_fini",
@@ -10823,7 +11747,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 189,
     "def": 254,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 788
   },
   {
     "id": "789-cosmog",
@@ -10834,7 +11759,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 54,
     "def": 57,
-    "sta": 125
+    "sta": 125,
+    "spriteId": 789
   },
   {
     "id": "790-cosmoem",
@@ -10845,7 +11771,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 54,
     "def": 242,
-    "sta": 125
+    "sta": 125,
+    "spriteId": 790
   },
   {
     "id": "791-solgaleo",
@@ -10857,7 +11784,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 255,
     "def": 191,
-    "sta": 264
+    "sta": 264,
+    "spriteId": 791
   },
   {
     "id": "792-lunala",
@@ -10869,7 +11797,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 255,
     "def": 191,
-    "sta": 264
+    "sta": 264,
+    "spriteId": 792
   },
   {
     "id": "793-nihilego",
@@ -10881,7 +11810,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 249,
     "def": 210,
-    "sta": 240
+    "sta": 240,
+    "spriteId": 793
   },
   {
     "id": "794-buzzwole",
@@ -10893,7 +11823,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 236,
     "def": 196,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 794
   },
   {
     "id": "795-pheromosa",
@@ -10905,7 +11836,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 316,
     "def": 85,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 795
   },
   {
     "id": "796-xurkitree",
@@ -10916,7 +11848,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 330,
     "def": 144,
-    "sta": 195
+    "sta": 195,
+    "spriteId": 796
   },
   {
     "id": "797-celesteela",
@@ -10928,7 +11861,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 199,
-    "sta": 219
+    "sta": 219,
+    "spriteId": 797
   },
   {
     "id": "798-kartana",
@@ -10940,7 +11874,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 323,
     "def": 182,
-    "sta": 139
+    "sta": 139,
+    "spriteId": 798
   },
   {
     "id": "799-guzzlord",
@@ -10952,7 +11887,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 99,
-    "sta": 440
+    "sta": 440,
+    "spriteId": 799
   },
   {
     "id": "800-necrozma",
@@ -10963,7 +11899,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 251,
     "def": 195,
-    "sta": 219
+    "sta": 219,
+    "spriteId": 800
   },
   {
     "id": "800-dawn_wings",
@@ -10976,7 +11913,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 277,
     "def": 220,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 10156
   },
   {
     "id": "800-dusk_mane",
@@ -10989,7 +11927,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 277,
     "def": 220,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 10155
   },
   {
     "id": "800-ultra",
@@ -11002,7 +11941,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 337,
     "def": 196,
-    "sta": 200
+    "sta": 200,
+    "spriteId": 10157
   },
   {
     "id": "802-marshadow",
@@ -11014,7 +11954,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 265,
     "def": 190,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 802
   },
   {
     "id": "803-poipole",
@@ -11025,7 +11966,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 133,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 803
   },
   {
     "id": "804-naganadel",
@@ -11037,7 +11979,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 263,
     "def": 159,
-    "sta": 177
+    "sta": 177,
+    "spriteId": 804
   },
   {
     "id": "805-stakataka",
@@ -11049,7 +11992,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 213,
     "def": 298,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 805
   },
   {
     "id": "806-blacephalon",
@@ -11061,7 +12005,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 315,
     "def": 148,
-    "sta": 142
+    "sta": 142,
+    "spriteId": 806
   },
   {
     "id": "808-meltan",
@@ -11072,7 +12017,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 99,
-    "sta": 130
+    "sta": 130,
+    "spriteId": 808
   },
   {
     "id": "809-melmetal",
@@ -11083,7 +12029,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 190,
-    "sta": 264
+    "sta": 264,
+    "spriteId": 809
   },
   {
     "id": "810-grookey",
@@ -11094,7 +12041,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 122,
     "def": 91,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 810
   },
   {
     "id": "811-thwackey",
@@ -11105,7 +12053,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 165,
     "def": 134,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 811
   },
   {
     "id": "812-rillaboom",
@@ -11116,7 +12065,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 239,
     "def": 168,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 812
   },
   {
     "id": "813-scorbunny",
@@ -11127,7 +12077,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 79,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 813
   },
   {
     "id": "814-raboot",
@@ -11138,7 +12089,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 125,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 814
   },
   {
     "id": "815-cinderace",
@@ -11149,7 +12101,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 163,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 815
   },
   {
     "id": "816-sobble",
@@ -11160,7 +12113,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 132,
     "def": 79,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 816
   },
   {
     "id": "817-drizzile",
@@ -11171,7 +12125,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 113,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 817
   },
   {
     "id": "818-inteleon",
@@ -11182,7 +12137,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 262,
     "def": 142,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 818
   },
   {
     "id": "819-skwovet",
@@ -11193,7 +12149,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 86,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 819
   },
   {
     "id": "820-greedent",
@@ -11204,7 +12161,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 160,
     "def": 156,
-    "sta": 260
+    "sta": 260,
+    "spriteId": 820
   },
   {
     "id": "821-rookidee",
@@ -11215,7 +12173,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 88,
     "def": 67,
-    "sta": 116
+    "sta": 116,
+    "spriteId": 821
   },
   {
     "id": "822-corvisquire",
@@ -11226,7 +12185,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 129,
     "def": 110,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 822
   },
   {
     "id": "823-corviknight",
@@ -11238,7 +12198,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 192,
-    "sta": 221
+    "sta": 221,
+    "spriteId": 823
   },
   {
     "id": "827-nickit",
@@ -11249,7 +12210,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 85,
     "def": 82,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 827
   },
   {
     "id": "828-thievul",
@@ -11260,7 +12222,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 172,
     "def": 164,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 828
   },
   {
     "id": "829-gossifleur",
@@ -11271,7 +12234,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 70,
     "def": 104,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 829
   },
   {
     "id": "830-eldegoss",
@@ -11282,7 +12246,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 148,
     "def": 211,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 830
   },
   {
     "id": "831-wooloo",
@@ -11293,7 +12258,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 76,
     "def": 97,
-    "sta": 123
+    "sta": 123,
+    "spriteId": 831
   },
   {
     "id": "832-dubwool",
@@ -11304,7 +12270,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 198,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 832
   },
   {
     "id": "835-yamper",
@@ -11315,7 +12282,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 80,
     "def": 90,
-    "sta": 153
+    "sta": 153,
+    "spriteId": 835
   },
   {
     "id": "836-boltund",
@@ -11326,7 +12294,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 197,
     "def": 131,
-    "sta": 170
+    "sta": 170,
+    "spriteId": 836
   },
   {
     "id": "837-rolycoly",
@@ -11337,7 +12306,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 73,
     "def": 91,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 837
   },
   {
     "id": "838-carkol",
@@ -11349,7 +12319,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 114,
     "def": 157,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 838
   },
   {
     "id": "839-coalossal",
@@ -11361,7 +12332,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 146,
     "def": 198,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 839
   },
   {
     "id": "840-applin",
@@ -11373,7 +12345,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 71,
     "def": 116,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 840
   },
   {
     "id": "841-flapple",
@@ -11385,7 +12358,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 214,
     "def": 144,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 841
   },
   {
     "id": "842-appletun",
@@ -11397,7 +12371,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 178,
     "def": 146,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 842
   },
   {
     "id": "845-cramorant",
@@ -11409,7 +12384,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 163,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 845
   },
   {
     "id": "850-sizzlipede",
@@ -11421,7 +12397,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 118,
     "def": 90,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 850
   },
   {
     "id": "851-centiskorch",
@@ -11433,7 +12410,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 220,
     "def": 158,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 851
   },
   {
     "id": "852-clobbopus",
@@ -11444,7 +12422,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 121,
     "def": 103,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 852
   },
   {
     "id": "853-grapploct",
@@ -11455,7 +12434,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 209,
     "def": 162,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 853
   },
   {
     "id": "855-polteageist",
@@ -11466,7 +12446,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 248,
     "def": 189,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 855
   },
   {
     "id": "856-hatenna",
@@ -11477,7 +12458,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 93,
-    "sta": 123
+    "sta": 123,
+    "spriteId": 856
   },
   {
     "id": "857-hattrem",
@@ -11488,7 +12470,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 153,
     "def": 133,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 857
   },
   {
     "id": "858-hatterene",
@@ -11500,7 +12483,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 237,
     "def": 182,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 858
   },
   {
     "id": "859-impidimp",
@@ -11512,7 +12496,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 103,
     "def": 69,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 859
   },
   {
     "id": "860-morgrem",
@@ -11524,7 +12509,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 145,
     "def": 102,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 860
   },
   {
     "id": "861-grimmsnarl",
@@ -11536,7 +12522,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 227,
     "def": 139,
-    "sta": 216
+    "sta": 216,
+    "spriteId": 861
   },
   {
     "id": "862-obstagoon",
@@ -11548,7 +12535,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 180,
     "def": 194,
-    "sta": 212
+    "sta": 212,
+    "spriteId": 862
   },
   {
     "id": "863-perrserker",
@@ -11559,7 +12547,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 195,
     "def": 162,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 863
   },
   {
     "id": "864-cursola",
@@ -11570,7 +12559,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 253,
     "def": 182,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 864
   },
   {
     "id": "865-sirfetch_d",
@@ -11581,7 +12571,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 248,
     "def": 176,
-    "sta": 158
+    "sta": 158,
+    "spriteId": 865
   },
   {
     "id": "866-mr_rime",
@@ -11593,7 +12584,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 212,
     "def": 179,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 866
   },
   {
     "id": "867-runerigus",
@@ -11605,7 +12597,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 237,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 867
   },
   {
     "id": "870-falinks",
@@ -11616,7 +12609,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 193,
     "def": 170,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 870
   },
   {
     "id": "872-snom",
@@ -11628,7 +12622,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 76,
     "def": 59,
-    "sta": 102
+    "sta": 102,
+    "spriteId": 872
   },
   {
     "id": "873-frosmoth",
@@ -11640,7 +12635,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 230,
     "def": 155,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 873
   },
   {
     "id": "874-stonjourner",
@@ -11651,7 +12647,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 182,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 874
   },
   {
     "id": "876-indeedee",
@@ -11663,7 +12660,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 184,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 876
   },
   {
     "id": "876-male",
@@ -11676,7 +12674,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 166,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 876
   },
   {
     "id": "877-morpeko",
@@ -11688,7 +12687,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 192,
     "def": 121,
-    "sta": 151
+    "sta": 151,
+    "spriteId": 877
   },
   {
     "id": "884-duraludon",
@@ -11700,7 +12700,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 239,
     "def": 185,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 884
   },
   {
     "id": "885-dreepy",
@@ -11712,7 +12713,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 117,
     "def": 61,
-    "sta": 99
+    "sta": 99,
+    "spriteId": 885
   },
   {
     "id": "886-drakloak",
@@ -11724,7 +12726,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 163,
     "def": 105,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 886
   },
   {
     "id": "887-dragapult",
@@ -11736,7 +12739,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 266,
     "def": 170,
-    "sta": 204
+    "sta": 204,
+    "spriteId": 887
   },
   {
     "id": "888-zacian",
@@ -11748,7 +12752,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 332,
     "def": 240,
-    "sta": 192
+    "sta": 192,
+    "spriteId": 10188
   },
   {
     "id": "888-hero",
@@ -11760,7 +12765,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 236,
-    "sta": 192
+    "sta": 192,
+    "spriteId": 888
   },
   {
     "id": "889-zamazenta",
@@ -11772,7 +12778,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 292,
-    "sta": 192
+    "sta": 192,
+    "spriteId": 10189
   },
   {
     "id": "889-hero",
@@ -11784,7 +12791,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 236,
-    "sta": 192
+    "sta": 192,
+    "spriteId": 889
   },
   {
     "id": "890-eternatus",
@@ -11796,7 +12804,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 278,
     "def": 192,
-    "sta": 268
+    "sta": 268,
+    "spriteId": 890
   },
   {
     "id": "890-eternamax",
@@ -11809,7 +12818,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 251,
     "def": 505,
-    "sta": 452
+    "sta": 452,
+    "spriteId": 10190
   },
   {
     "id": "891-kubfu",
@@ -11820,7 +12830,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 170,
     "def": 112,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 891
   },
   {
     "id": "892-urshifu",
@@ -11832,7 +12843,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 177,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 892
   },
   {
     "id": "892-single_strike",
@@ -11845,7 +12857,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 177,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 892
   },
   {
     "id": "893-zarude",
@@ -11857,7 +12870,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 242,
     "def": 215,
-    "sta": 233
+    "sta": 233,
+    "spriteId": 893
   },
   {
     "id": "894-regieleki",
@@ -11868,7 +12882,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 125,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 894
   },
   {
     "id": "895-regidrago",
@@ -11879,7 +12894,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 202,
     "def": 101,
-    "sta": 400
+    "sta": 400,
+    "spriteId": 895
   },
   {
     "id": "899-wyrdeer",
@@ -11891,7 +12907,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 206,
     "def": 145,
-    "sta": 230
+    "sta": 230,
+    "spriteId": 899
   },
   {
     "id": "900-kleavor",
@@ -11903,7 +12920,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 253,
     "def": 174,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 900
   },
   {
     "id": "901-ursaluna",
@@ -11915,7 +12933,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 243,
     "def": 181,
-    "sta": 277
+    "sta": 277,
+    "spriteId": 901
   },
   {
     "id": "903-sneasler",
@@ -11927,7 +12946,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 259,
     "def": 158,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 903
   },
   {
     "id": "904-overqwil",
@@ -11939,7 +12959,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 222,
     "def": 171,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 904
   },
   {
     "id": "905-enamorus",
@@ -11951,7 +12972,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 281,
     "def": 162,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 905
   },
   {
     "id": "905-therian",
@@ -11964,7 +12986,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 250,
     "def": 201,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 10249
   },
   {
     "id": "906-sprigatito",
@@ -11975,7 +12998,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 116,
     "def": 99,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 906
   },
   {
     "id": "907-floragato",
@@ -11986,7 +13010,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 157,
     "def": 128,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 907
   },
   {
     "id": "908-meowscarada",
@@ -11998,7 +13023,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 233,
     "def": 153,
-    "sta": 183
+    "sta": 183,
+    "spriteId": 908
   },
   {
     "id": "909-fuecoco",
@@ -12009,7 +13035,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 112,
     "def": 96,
-    "sta": 167
+    "sta": 167,
+    "spriteId": 909
   },
   {
     "id": "910-crocalor",
@@ -12020,7 +13047,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 134,
-    "sta": 191
+    "sta": 191,
+    "spriteId": 910
   },
   {
     "id": "911-skeledirge",
@@ -12032,7 +13060,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 207,
     "def": 178,
-    "sta": 232
+    "sta": 232,
+    "spriteId": 911
   },
   {
     "id": "912-quaxly",
@@ -12043,7 +13072,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 120,
     "def": 86,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 912
   },
   {
     "id": "913-quaxwell",
@@ -12054,7 +13084,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 162,
     "def": 123,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 913
   },
   {
     "id": "914-quaquaval",
@@ -12066,7 +13097,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 236,
     "def": 159,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 914
   },
   {
     "id": "915-lechonk",
@@ -12077,7 +13109,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 81,
     "def": 79,
-    "sta": 144
+    "sta": 144,
+    "spriteId": 915
   },
   {
     "id": "916-oinkologne",
@@ -12088,7 +13121,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 153,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 916
   },
   {
     "id": "916-female",
@@ -12100,7 +13134,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 169,
     "def": 162,
-    "sta": 251
+    "sta": 251,
+    "spriteId": 10254
   },
   {
     "id": "917-tarountula",
@@ -12111,7 +13146,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 70,
     "def": 77,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 917
   },
   {
     "id": "918-spidops",
@@ -12122,7 +13158,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 139,
     "def": 166,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 918
   },
   {
     "id": "919-nymble",
@@ -12133,7 +13170,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 81,
     "def": 65,
-    "sta": 107
+    "sta": 107,
+    "spriteId": 919
   },
   {
     "id": "920-lokix",
@@ -12145,7 +13183,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 199,
     "def": 144,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 920
   },
   {
     "id": "921-pawmi",
@@ -12156,7 +13195,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 45,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 921
   },
   {
     "id": "922-pawmo",
@@ -12168,7 +13208,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 147,
     "def": 82,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 922
   },
   {
     "id": "923-pawmot",
@@ -12180,7 +13221,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 232,
     "def": 141,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 923
   },
   {
     "id": "924-tandemaus",
@@ -12191,7 +13233,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 98,
     "def": 90,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 924
   },
   {
     "id": "925-maushold",
@@ -12202,7 +13245,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 157,
-    "sta": 179
+    "sta": 179,
+    "spriteId": 925
   },
   {
     "id": "926-fidough",
@@ -12213,7 +13257,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 102,
     "def": 126,
-    "sta": 114
+    "sta": 114,
+    "spriteId": 926
   },
   {
     "id": "927-dachsbun",
@@ -12224,7 +13269,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 159,
     "def": 212,
-    "sta": 149
+    "sta": 149,
+    "spriteId": 927
   },
   {
     "id": "928-smoliv",
@@ -12236,7 +13282,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 100,
     "def": 89,
-    "sta": 121
+    "sta": 121,
+    "spriteId": 928
   },
   {
     "id": "929-dolliv",
@@ -12248,7 +13295,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 137,
     "def": 131,
-    "sta": 141
+    "sta": 141,
+    "spriteId": 929
   },
   {
     "id": "930-arboliva",
@@ -12260,7 +13308,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 219,
     "def": 189,
-    "sta": 186
+    "sta": 186,
+    "spriteId": 930
   },
   {
     "id": "932-nacli",
@@ -12271,7 +13320,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 95,
     "def": 108,
-    "sta": 146
+    "sta": 146,
+    "spriteId": 932
   },
   {
     "id": "933-naclstack",
@@ -12282,7 +13332,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 160,
-    "sta": 155
+    "sta": 155,
+    "spriteId": 933
   },
   {
     "id": "934-garganacl",
@@ -12293,7 +13344,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 171,
     "def": 212,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 934
   },
   {
     "id": "935-charcadet",
@@ -12304,7 +13356,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 92,
     "def": 74,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 935
   },
   {
     "id": "936-armarouge",
@@ -12316,7 +13369,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 234,
     "def": 185,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 936
   },
   {
     "id": "937-ceruledge",
@@ -12328,7 +13382,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 239,
     "def": 189,
-    "sta": 181
+    "sta": 181,
+    "spriteId": 937
   },
   {
     "id": "938-tadbulb",
@@ -12339,7 +13394,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 104,
     "def": 73,
-    "sta": 156
+    "sta": 156,
+    "spriteId": 938
   },
   {
     "id": "939-bellibolt",
@@ -12350,7 +13406,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 165,
-    "sta": 240
+    "sta": 240,
+    "spriteId": 939
   },
   {
     "id": "940-wattrel",
@@ -12362,7 +13419,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 75,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 940
   },
   {
     "id": "941-kilowattrel",
@@ -12374,7 +13432,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 221,
     "def": 132,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 941
   },
   {
     "id": "944-shroodle",
@@ -12386,7 +13445,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 124,
     "def": 70,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 944
   },
   {
     "id": "945-grafaiai",
@@ -12398,7 +13458,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 199,
     "def": 149,
-    "sta": 160
+    "sta": 160,
+    "spriteId": 945
   },
   {
     "id": "948-toedscool",
@@ -12410,7 +13471,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 97,
     "def": 149,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 948
   },
   {
     "id": "949-toedscruel",
@@ -12422,7 +13484,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 166,
     "def": 209,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 949
   },
   {
     "id": "950-klawf",
@@ -12433,7 +13496,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 184,
     "def": 185,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 950
   },
   {
     "id": "957-tinkatink",
@@ -12445,7 +13509,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 85,
     "def": 110,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 957
   },
   {
     "id": "958-tinkatuff",
@@ -12457,7 +13522,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 145,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 958
   },
   {
     "id": "959-tinkaton",
@@ -12469,7 +13535,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 155,
     "def": 196,
-    "sta": 198
+    "sta": 198,
+    "spriteId": 959
   },
   {
     "id": "960-wiglett",
@@ -12480,7 +13547,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 109,
     "def": 52,
-    "sta": 67
+    "sta": 67,
+    "spriteId": 960
   },
   {
     "id": "961-wugtrio",
@@ -12491,7 +13559,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 205,
     "def": 136,
-    "sta": 111
+    "sta": 111,
+    "spriteId": 961
   },
   {
     "id": "962-bombirdier",
@@ -12503,7 +13572,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 198,
     "def": 172,
-    "sta": 172
+    "sta": 172,
+    "spriteId": 962
   },
   {
     "id": "965-varoom",
@@ -12515,7 +13585,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 123,
     "def": 107,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 965
   },
   {
     "id": "966-revavroom",
@@ -12527,7 +13598,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 229,
     "def": 168,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 966
   },
   {
     "id": "969-glimmet",
@@ -12539,7 +13611,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 187,
     "def": 104,
-    "sta": 134
+    "sta": 134,
+    "spriteId": 969
   },
   {
     "id": "970-glimmora",
@@ -12551,7 +13624,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 246,
     "def": 177,
-    "sta": 195
+    "sta": 195,
+    "spriteId": 970
   },
   {
     "id": "971-greavard",
@@ -12562,7 +13636,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 105,
     "def": 106,
-    "sta": 137
+    "sta": 137,
+    "spriteId": 971
   },
   {
     "id": "972-houndstone",
@@ -12573,7 +13648,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 186,
     "def": 195,
-    "sta": 176
+    "sta": 176,
+    "spriteId": 972
   },
   {
     "id": "974-cetoddle",
@@ -12584,7 +13660,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 119,
     "def": 80,
-    "sta": 239
+    "sta": 239,
+    "spriteId": 974
   },
   {
     "id": "975-cetitan",
@@ -12595,7 +13672,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 208,
     "def": 123,
-    "sta": 347
+    "sta": 347,
+    "spriteId": 975
   },
   {
     "id": "977-dondozo",
@@ -12606,7 +13684,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 176,
     "def": 178,
-    "sta": 312
+    "sta": 312,
+    "spriteId": 977
   },
   {
     "id": "978-tatsugiri",
@@ -12618,7 +13697,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 226,
     "def": 166,
-    "sta": 169
+    "sta": 169,
+    "spriteId": 978
   },
   {
     "id": "979-annihilape",
@@ -12630,7 +13710,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 220,
     "def": 178,
-    "sta": 242
+    "sta": 242,
+    "spriteId": 979
   },
   {
     "id": "980-clodsire",
@@ -12642,7 +13723,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 127,
     "def": 151,
-    "sta": 277
+    "sta": 277,
+    "spriteId": 980
   },
   {
     "id": "982-dudunsparce",
@@ -12653,7 +13735,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 188,
     "def": 150,
-    "sta": 268
+    "sta": 268,
+    "spriteId": 982
   },
   {
     "id": "983-kingambit",
@@ -12665,7 +13748,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 238,
     "def": 203,
-    "sta": 225
+    "sta": 225,
+    "spriteId": 983
   },
   {
     "id": "996-frigibax",
@@ -12677,7 +13761,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 86,
-    "sta": 163
+    "sta": 163,
+    "spriteId": 996
   },
   {
     "id": "997-arctibax",
@@ -12689,7 +13774,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 128,
-    "sta": 207
+    "sta": 207,
+    "spriteId": 997
   },
   {
     "id": "998-baxcalibur",
@@ -12701,7 +13787,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 254,
     "def": 168,
-    "sta": 229
+    "sta": 229,
+    "spriteId": 998
   },
   {
     "id": "999-gimmighoul",
@@ -12712,7 +13799,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 140,
     "def": 76,
-    "sta": 128
+    "sta": 128,
+    "spriteId": 999
   },
   {
     "id": "1000-gholdengo",
@@ -12724,7 +13812,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 252,
     "def": 190,
-    "sta": 202
+    "sta": 202,
+    "spriteId": 1000
   },
   {
     "id": "1011-dipplin",
@@ -12736,7 +13825,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 173,
     "def": 184,
-    "sta": 190
+    "sta": 190,
+    "spriteId": 1011
   },
   {
     "id": "1012-poltchageist",
@@ -12748,7 +13838,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 134,
     "def": 96,
-    "sta": 120
+    "sta": 120,
+    "spriteId": 1012
   },
   {
     "id": "1013-sinistcha",
@@ -12760,7 +13851,8 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 225,
     "def": 191,
-    "sta": 174
+    "sta": 174,
+    "spriteId": 1013
   },
   {
     "id": "1019-hydrapple",
@@ -12772,6 +13864,7 @@ export const POKEMON_DEX: PogoPokemon[] = [
     ],
     "atk": 216,
     "def": 186,
-    "sta": 235
+    "sta": 235,
+    "spriteId": 1019
   }
 ];

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Search, X, ChevronDown } from 'lucide-react';
 import { formatPokemonDisplayName, POKEMON_DEX, PokemonSpecies } from '../data/pokemon';
+import { PokemonPortrait } from './PokemonPortrait';
+import { TypeIcon } from './TypeIcon';
 
 interface PokemonSearchSelectProps {
   selected: PokemonSpecies;
@@ -118,7 +120,7 @@ export function PokemonSearchSelect({ selected, onSelect }: PokemonSearchSelectP
             if (!isOpen) setIsOpen(true);
           }}
           onKeyDown={handleKeyDown}
-          className="w-full pl-9 pr-16 py-2.5 text-sm font-medium text-white bg-slate-900 border border-slate-700/80 rounded-lg focus:outline-none focus:border-sky-400 transition-colors"
+          className="w-full pl-9 pr-16 py-2.5 text-sm font-medium text-white bg-slate-900/95 border border-slate-700/80 rounded-lg focus:outline-none focus:border-sky-400 transition-colors"
         />
 
         <div className="absolute right-2 flex items-center gap-1">
@@ -162,7 +164,7 @@ export function PokemonSearchSelect({ selected, onSelect }: PokemonSearchSelectP
                 ? `Showing ${filtered.length}${filtered.length === 100 ? '+' : ''} matches`
                 : 'Type to search all 1,092 released Pokémon & forms'}
             </span>
-            <span className="font-mono">A / D / S</span>
+            <span className="font-mono">Base A / D / S</span>
           </div>
 
           {filtered.length === 0 ? (
@@ -195,14 +197,21 @@ export function PokemonSearchSelect({ selected, onSelect }: PokemonSearchSelectP
                       }`}
                     >
                       <div className="flex items-center gap-2.5 min-w-0">
-                        <span className="font-mono tabular-nums text-xs text-slate-400 w-10 shrink-0">
+                        <PokemonPortrait species={p} size="sm" />
+                        <span className="font-mono tabular-nums text-xs text-slate-400 w-9 shrink-0">
                           #{p.dex}
                         </span>
                         <span className="font-medium truncate">
                           {formatPokemonDisplayName(p)}
                         </span>
-                        <span className="text-xs text-slate-400 whitespace-nowrap shrink-0">
-                          {p.types.join(' / ')}
+                        <span className="hidden sm:inline-flex items-center gap-1.5 text-xs text-slate-400 whitespace-nowrap shrink-0">
+                          {p.types.map((t, i) => (
+                            <span key={t} className="inline-flex items-center gap-1">
+                              {i > 0 && <span className="text-slate-600">/</span>}
+                              <TypeIcon type={t} size={12} />
+                              <span>{t}</span>
+                            </span>
+                          ))}
                         </span>
                       </div>
                       <span className="font-mono tabular-nums text-xs text-slate-400 shrink-0">

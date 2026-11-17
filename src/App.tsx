@@ -1,7 +1,19 @@
 import { useMemo, useState } from 'react';
-import { Minus, Plus, Trophy } from 'lucide-react';
+import {
+  Heart,
+  Layers,
+  Minus,
+  Plus,
+  Shield,
+  SlidersHorizontal,
+  Swords,
+  Trophy,
+} from 'lucide-react';
+import { PokemonPortrait } from './components/PokemonPortrait';
 import { PokemonSearchSelect } from './components/PokemonSearchSelect';
 import { RankingsTable } from './components/RankingsTable';
+import { ResilientImage } from './components/ResilientImage';
+import { TypeIcon } from './components/TypeIcon';
 import {
   formatPokemonDisplayName,
   LEAGUES,
@@ -10,6 +22,15 @@ import {
   PokemonSpecies,
 } from './data/pokemon';
 import { evaluatePvpRankings, MaxLevelCap, TierTone } from './utils/pvpCalculator';
+
+const BRAND_CREST_IMG = '/src/assets/images/brand_arena_crest_1794922601740.jpg';
+const SPOTLIGHT_BG_IMG = '/src/assets/images/pokemon_spotlight_bg_1794922602585.jpg';
+
+const LEAGUE_EMBLEMS: Record<LeagueId, string> = {
+  great: '/src/assets/images/league_great_emblem_1794922601954.jpg',
+  ultra: '/src/assets/images/league_ultra_emblem_1794922602996.jpg',
+  master: '/src/assets/images/league_master_emblem_1794922603002.jpg',
+};
 
 const IV_FLOORS = [
   { value: 0, label: '0 · Wild' },
@@ -32,7 +53,6 @@ const TIER_TEXT_CLASSES: Record<TierTone, string> = {
 };
 
 export default function App() {
-  // Default to Azumarill (#184) for immediate PvP reference
   const defaultSpecies = useMemo(
     () => POKEMON_DEX.find((p) => p.dex === 184 && !p.form) ?? POKEMON_DEX[0],
     []
@@ -46,7 +66,6 @@ export default function App() {
   const [maxLevel, setMaxLevel] = useState<MaxLevelCap>(50);
   const [ivFloor, setIvFloor] = useState<number>(0);
 
-  // Evaluate all 3 leagues simultaneously (like iv4u.lima-city.de)
   const greatEval = useMemo(
     () => evaluatePvpRankings(species, 'great', atkIv, defIv, staIv, maxLevel, ivFloor),
     [species, atkIv, defIv, staIv, maxLevel, ivFloor]
@@ -95,21 +114,25 @@ export default function App() {
     setStaIv(s);
   };
 
-  const handleSelectPokemon = (next: PokemonSpecies) => {
-    setSpecies(next);
-  };
-
   return (
     <div className="min-h-screen bg-[#0b1120] text-slate-100 flex flex-col">
-      {/* Top Bar (Clean 3-zone contract) */}
+      {/* Top Bar (3-zone contract with brand emblem image) */}
       <header className="border-b border-slate-800 bg-[#090e1a]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-8">
-          <span className="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0">
-            GO Arena IV
-          </span>
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-8">
+          <div className="flex items-center gap-2.5 shrink-0">
+            <ResilientImage
+              src={BRAND_CREST_IMG}
+              alt="GO Arena IV emblem"
+              className="w-8 h-8 rounded-lg object-cover border border-white/15 shrink-0"
+              fallbackLabel="IV"
+            />
+            <span className="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap shrink-0">
+              GO Arena IV
+            </span>
+          </div>
 
           <div className="hidden md:flex items-center gap-2 text-xs text-slate-400 whitespace-nowrap">
-            <span>All Released Pokémon GO Species</span>
+            <span>{POKEMON_DEX.length.toLocaleString()} Released Species</span>
             <span aria-hidden="true">·</span>
             <span>Great, Ultra &amp; Master League Rankings</span>
           </div>
@@ -138,35 +161,94 @@ export default function App() {
 
       {/* Main Content */}
       <main className="flex-1 max-w-[1200px] w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
-        {/* Section 1: Pokémon Search & Global League Settings */}
-        <section className="bg-[#0f172a] border border-slate-800 rounded-xl p-4 sm:p-5">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-end">
-            {/* Searchable Pokemon Combobox */}
-            <div className="lg:col-span-5">
-              <PokemonSearchSelect selected={species} onSelect={handleSelectPokemon} />
-            </div>
+        {/* Section 1: Pokémon Spotlight Banner + Search & League Rules */}
+        <section className="relative bg-[#0f172a] border border-slate-800 rounded-xl overflow-visible">
+          {/* Atmospheric Arena Backdrop Image with Contrast Scrim */}
+          <div className="relative rounded-t-xl overflow-hidden border-b border-slate-800">
+            <ResilientImage
+              src={SPOTLIGHT_BG_IMG}
+              alt="Battle arena stadium backdrop"
+              className="absolute inset-0 w-full h-full object-cover opacity-55 pointer-events-none"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#090e1a]/95 via-[#090e1a]/80 to-[#090e1a]/92 pointer-events-none" />
 
-            {/* Selected Species Base Stats Readout */}
-            <div className="lg:col-span-3 flex items-center justify-between lg:justify-start gap-5 px-3 py-2 bg-slate-900/70 border border-slate-800 rounded-lg">
-              <div>
-                <div className="text-[11px] text-slate-400">Type</div>
-                <div className="text-xs font-medium text-white whitespace-nowrap">
-                  {species.types.join(' / ')}
+            <div className="relative z-10 p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-4 min-w-0">
+                <PokemonPortrait species={species} size="lg" />
+
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h1 className="font-display text-2xl font-bold text-white tracking-tight truncate">
+                      {formatPokemonDisplayName(species)}
+                    </h1>
+                    {species.form === 'Mega' && (
+                      <span className="text-xs font-semibold text-amber-300 whitespace-nowrap">
+                        · Mega Evolution
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="mt-1.5 flex flex-wrap items-center gap-3 text-xs text-slate-300">
+                    <span className="font-mono tabular-nums text-slate-400">
+                      Pokédex #{species.dex}
+                    </span>
+                    <span aria-hidden="true" className="text-slate-600">·</span>
+                    <div className="inline-flex items-center gap-2.5">
+                      {species.types.map((t, idx) => (
+                        <span key={t} className="inline-flex items-center gap-1.5 font-medium">
+                          {idx > 0 && <span className="text-slate-600">/</span>}
+                          <TypeIcon type={t} size={14} />
+                          <span>{t}</span>
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="h-6 w-px bg-slate-800" />
-              <div>
-                <div className="text-[11px] text-slate-400">Base Stats (A/D/S)</div>
-                <div className="font-mono tabular-nums text-xs font-semibold text-sky-300 whitespace-nowrap">
-                  {species.atk} / {species.def} / {species.sta}
+
+              {/* Base Stats Readout with Icons */}
+              <div className="grid grid-cols-3 gap-4 sm:gap-6 px-4 py-2.5 bg-slate-950/80 border border-white/10 rounded-lg shrink-0">
+                <div>
+                  <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
+                    <Swords className="w-3 h-3 text-rose-400" />
+                    <span>Base ATK</span>
+                  </div>
+                  <div className="font-mono tabular-nums text-base font-bold text-white mt-0.5">
+                    {species.atk}
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
+                    <Shield className="w-3 h-3 text-sky-400" />
+                    <span>Base DEF</span>
+                  </div>
+                  <div className="font-mono tabular-nums text-base font-bold text-white mt-0.5">
+                    {species.def}
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
+                    <Heart className="w-3 h-3 text-emerald-400" />
+                    <span>Base STA</span>
+                  </div>
+                  <div className="font-mono tabular-nums text-base font-bold text-white mt-0.5">
+                    {species.sta}
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Max Level Cap */}
-            <div className="lg:col-span-2">
-              <span className="block text-xs font-medium text-slate-400 mb-1.5">
-                Max Level
+          {/* Search & League Rules Controls */}
+          <div className="p-4 sm:p-5 grid grid-cols-1 lg:grid-cols-12 gap-4 items-end">
+            <div className="lg:col-span-6">
+              <PokemonSearchSelect selected={species} onSelect={setSpecies} />
+            </div>
+
+            <div className="lg:col-span-3">
+              <span className="flex items-center gap-1.5 text-xs font-medium text-slate-400 mb-1.5">
+                <Layers className="w-3.5 h-3.5 text-slate-400" />
+                <span>Max Level Cap</span>
               </span>
               <div className="grid grid-cols-4 gap-1 p-0.5 bg-slate-900 border border-slate-800 rounded-lg">
                 {([40, 41, 50, 51] as MaxLevelCap[]).map((cap) => (
@@ -186,13 +268,13 @@ export default function App() {
               </div>
             </div>
 
-            {/* IV Floor */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-3">
               <label
                 htmlFor="iv-floor"
-                className="block text-xs font-medium text-slate-400 mb-1.5"
+                className="flex items-center gap-1.5 text-xs font-medium text-slate-400 mb-1.5"
               >
-                IV Floor
+                <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400" />
+                <span>IV Floor</span>
               </label>
               <select
                 id="iv-floor"
@@ -214,11 +296,11 @@ export default function App() {
         <section className="bg-[#0f172a] border border-slate-800 rounded-xl p-4 sm:p-5">
           <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
             <div>
-              <h1 className="font-display text-base font-bold text-white">
-                {formatPokemonDisplayName(species)} Individual Values (0–15)
-              </h1>
+              <h2 className="font-display text-base font-bold text-white">
+                Individual Values (0–15)
+              </h2>
               <p className="text-xs text-slate-400">
-                Enter numeric IV values directly or adjust with steppers and sliders.
+                Type numeric IVs directly or adjust with steppers and sliders.
               </p>
             </div>
 
@@ -257,9 +339,24 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {(
               [
-                { key: 'atk', label: 'Attack IV', value: atkIv },
-                { key: 'def', label: 'Defense IV', value: defIv },
-                { key: 'sta', label: 'Stamina IV', value: staIv },
+                {
+                  key: 'atk',
+                  label: 'Attack IV',
+                  value: atkIv,
+                  icon: <Swords className="w-4 h-4 text-rose-400" />,
+                },
+                {
+                  key: 'def',
+                  label: 'Defense IV',
+                  value: defIv,
+                  icon: <Shield className="w-4 h-4 text-sky-400" />,
+                },
+                {
+                  key: 'sta',
+                  label: 'Stamina IV',
+                  value: staIv,
+                  icon: <Heart className="w-4 h-4 text-emerald-400" />,
+                },
               ] as const
             ).map((item) => (
               <div
@@ -269,9 +366,10 @@ export default function App() {
                 <div className="flex items-center justify-between gap-3">
                   <label
                     htmlFor={`iv-num-${item.key}`}
-                    className="text-xs font-semibold text-slate-300"
+                    className="inline-flex items-center gap-2 text-xs font-semibold text-slate-200"
                   >
-                    {item.label}
+                    {item.icon}
+                    <span>{item.label}</span>
                   </label>
 
                   <div className="flex items-center gap-1.5">
@@ -307,7 +405,6 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Quick 0-15 Slider */}
                 <input
                   type="range"
                   min={0}
@@ -323,7 +420,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Section 3: Great / Ultra / Master League Live Evaluation Strip */}
+        {/* Section 3: Great / Ultra / Master League Live Evaluation Strip with League Emblems */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {(['great', 'ultra', 'master'] as LeagueId[]).map((id) => {
             const cfg = LEAGUES[id];
@@ -342,22 +439,30 @@ export default function App() {
                     : 'bg-[#0f172a] border-slate-800 hover:border-slate-700'
                 }`}
               >
-                <div className="flex items-center justify-between gap-2 pb-2.5 border-b border-slate-800">
-                  <div>
-                    <div className={`text-xs font-semibold ${cfg.accentText}`}>
-                      {cfg.name} · {cfg.cpLabel}
-                    </div>
-                    <div className="mt-0.5 flex items-baseline gap-2">
-                      <span className="font-display text-2xl font-bold tabular-nums text-white">
-                        Rank #{selected.rank}
-                      </span>
-                      <span className="font-mono tabular-nums text-xs text-slate-400">
-                        / {selected.totalSpreads.toLocaleString()}
-                      </span>
+                <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-800">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <ResilientImage
+                      src={LEAGUE_EMBLEMS[id]}
+                      alt={`${cfg.name} emblem`}
+                      className="w-12 h-12 rounded-lg object-cover border border-white/15 shrink-0"
+                      fallbackLabel={cfg.shortName}
+                    />
+                    <div className="min-w-0">
+                      <div className={`text-xs font-semibold ${cfg.accentText} truncate`}>
+                        {cfg.name} · {cfg.cpLabel}
+                      </div>
+                      <div className="mt-0.5 flex items-baseline gap-1.5">
+                        <span className="font-display text-2xl font-bold tabular-nums text-white">
+                          Rank #{selected.rank}
+                        </span>
+                        <span className="font-mono tabular-nums text-xs text-slate-400">
+                          / {selected.totalSpreads.toLocaleString()}
+                        </span>
+                      </div>
                     </div>
                   </div>
 
-                  <div className="text-right">
+                  <div className="text-right shrink-0">
                     <div className="font-mono tabular-nums text-lg font-bold text-white">
                       {selected.eligible ? `${selected.cp} CP` : 'Over Cap'}
                     </div>
