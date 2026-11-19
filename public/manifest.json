@@ -1,0 +1,26 @@
+{
+  "name": "GO Arena IV – Pokémon GO PvP IV Calculator",
+  "short_name": "GO Arena IV",
+  "description": "Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "categories": ["games", "utilities", "entertainment"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

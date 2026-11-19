@@ -21,7 +21,7 @@ export function ResilientImage({
       <div
         role="img"
         aria-label={alt}
-        className={`flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-950 border border-slate-700/60 text-slate-400 ${className}`}
+        className={`flex items-center justify-center bg-linear-to-br from-slate-800 to-slate-950 border border-slate-700/60 text-slate-400 ${className}`}
       >
         <div className="flex flex-col items-center gap-1">
           <Shield className="w-4 h-4 text-sky-400" />

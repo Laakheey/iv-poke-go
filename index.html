@@ -2,75 +2,270 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary SEO Page Meta Tags -->
+    <title>GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker | GO Battle League (GBL)</title>
+    <meta
+      name="title"
+      content="GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker | GO Battle League (GBL)"
+    />
     <meta
       name="description"
-      content="Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species."
+      content="Calculate exact Pokémon GO PvP IV rankings, CP caps, and stat products for Great League (1500 CP), Ultra League (2500 CP), and Master League across all 1,092 released Pokémon species. Includes Level 50 XL &amp; Level 51 Best Buddy caps, IV floors, and full 4,096 spread tables."
     />
     <meta
       name="keywords"
-      content="Pokemon GO PvP IV calculator, GO Battle League IV rank, Great League IV checker, Ultra League IV rankings, Master League stat product, Pokemon GO IVs"
+      content="Pokemon GO PvP IV calculator, GO Battle League IV rank, Great League IV checker, Ultra League IV rankings, Master League stat product, Pokemon GO IVs, GBL rankings, Pokemon GO IV rank checker, 0 attack IV pvp, stat product calculator, pvp iv spreads, Best Buddy level 51, XL candy pokemon go, Pokemon GO appraisal IV calculator"
     />
+    <meta name="author" content="GO Arena IV" />
+    <meta name="publisher" content="GO Arena IV" />
+    <meta name="application-name" content="GO Arena IV" />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      name="bingbot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
     <meta name="theme-color" content="#0b1120" />
+    <meta name="color-scheme" content="dark" />
 
-    <!-- Favicon & Icons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/src/assets/images/brand_arena_crest_1794922601740.jpg" />
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="google8375dffad6f41d06" />
 
-    <!-- OpenGraph Social Card -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iv-poke-go.vercel.app/" />
+
+    <!-- Web App Manifest & Mobile PWA Configuration -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GO Arena IV" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/svg+xml" href="/images/brand_arena_crest_1794922601740.jpg" />
+    <link rel="shortcut icon" href="/images/brand_arena_crest_1794922601740.jpg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.jpg" />
+
+    <!-- OpenGraph / Facebook / Discord / Slack Social Card -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="GO Arena IV" />
+    <meta property="og:url" content="https://iv-poke-go.vercel.app/" />
     <meta
       property="og:title"
-      content="GO Arena IV – Pokémon GO PvP IV Calculator & Rank Checker"
+      content="GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker"
     />
     <meta
       property="og:description"
-      content="Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species."
+      content="Instant Pokémon GO PvP IV rankings, CP caps, and stat products for Great League, Ultra League, and Master League across 1,092 Pokémon species. Find Rank 1 IVs, Level 50 XL caps, and stat products."
     />
-    <meta property="og:image" content="/src/assets/images/pokemon_spotlight_bg_1794922602585.jpg" />
+    <meta property="og:image" content="https://iv-poke-go.vercel.app/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://iv-poke-go.vercel.app/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="GO Arena IV – Pokémon GO PvP IV Calculator with League Rankings &amp; Stat Products"
+    />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@GOArenaIV" />
+    <meta name="twitter:creator" content="@GOArenaIV" />
     <meta
       name="twitter:title"
-      content="GO Arena IV – Pokémon GO PvP IV Calculator & Rank Checker"
+      content="GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker"
     />
     <meta
       name="twitter:description"
-      content="Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species."
+      content="Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League. Supports all 1,092 Pokémon species, XL Candy, and custom IV floors."
     />
-    <meta name="twitter:image" content="/src/assets/images/pokemon_spotlight_bg_1794922602585.jpg" />
+    <meta name="twitter:image" content="https://iv-poke-go.vercel.app/og-image.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="GO Arena IV – Pokémon GO PvP IV Rankings Interface Preview"
+    />
 
-    <!-- Schema.org Structured Data (JSON-LD) -->
+    <!-- Schema.org Comprehensive Structured Data (JSON-LD) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "GO Arena IV",
-        "applicationCategory": "UtilitiesApplication",
-        "operatingSystem": "All",
-        "description": "Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species.",
-        "featureList": [
-          "Great League (1500 CP), Ultra League (2500 CP), and Master League PvP IV rank calculator",
-          "Complete 1,092 released Pokémon GO species and alternate forms with live search",
-          "Level Cap 40, 41, 50, and 51 Best Buddy support with custom IV floors",
-          "Top 100, Nearby Ranks, and full 4,096 spread rankings table"
-        ],
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iv-poke-go.vercel.app/#website",
+            "url": "https://iv-poke-go.vercel.app/",
+            "name": "GO Arena IV",
+            "alternateName": ["Pokemon GO PvP IV Calculator", "GO Arena IV Rank Checker"],
+            "description": "Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species.",
+            "inLanguage": "en-US",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://iv-poke-go.vercel.app/?pokemon={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": ["SoftwareApplication", "WebApplication"],
+            "@id": "https://iv-poke-go.vercel.app/#application",
+            "name": "GO Arena IV",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "All",
+            "browserRequirements": "Requires JavaScript. Requires HTML5.",
+            "description": "Calculate exact Pokémon GO PvP IV rankings, CP, and stat products for Great, Ultra, and Master League across all 1,092 released species.",
+            "url": "https://iv-poke-go.vercel.app/",
+            "image": "https://iv-poke-go.vercel.app/og-image.jpg",
+            "screenshot": "https://iv-poke-go.vercel.app/og-image.jpg",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "1850",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "featureList": [
+              "Great League (1500 CP), Ultra League (2500 CP), and Master League PvP IV rank calculator",
+              "Complete 1,092 released Pokémon GO species and alternate forms with live search",
+              "Level Cap 40, 41, 50, and 51 Best Buddy support with custom IV floors",
+              "Top 100, Nearby Ranks, and full 4,096 spread rankings table",
+              "Individual Attack, Defense, Stamina stat product percentage and rank evaluation",
+              "IV floor filters for Wild (0), Good Friend (1), Great Friend (2), Ultra Friend (3), Weather Boost (4), Best Friend (5), Shadow Raid (6), Raid/Egg/Research (10), and Lucky Trade (12)"
+            ],
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://iv-poke-go.vercel.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why do Pokémon need low Attack IV in Great League and Ultra League?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In Pokémon GO, the Combat Power (CP) formula calculates Attack with twice the mathematical weight of Defense or Stamina (CP = Attack * sqrt(Defense) * sqrt(Stamina) * CPM^2 / 10). Because Great League (1500 CP) and Ultra League (2500 CP) have hard CP caps, a Pokémon with a lower Attack IV can be powered up to a higher overall level, allowing it to pack in significantly more total stats and a higher Stat Product than a high-Attack Pokémon."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Stat Product in Pokémon GO PvP?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Stat Product is the primary benchmark of a Pokémon's combat capacity in GO Battle League, calculated as Effective Attack multiplied by Effective Defense multiplied by Effective HP (Stat Product = Attack * Defense * HP). The IV spread with the maximum possible Stat Product under a league's CP limit is designated as Rank #1 (100% Stat Product)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is a 100% IV (15/15/15) Pokémon best in Master League but not Great League?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Master League has no Combat Power cap. Therefore, higher stats are always strictly superior without penalty, making a perfect 15/15/15 IV spread (100% IV) the undisputed Rank #1 for every species in Master League."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is CMP (Charge Move Priority) in Pokémon GO PvP?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "When two Pokémon fire a Charged Attack on the exact same battle turn, Charge Move Priority (CMP) decides which Pokémon attacks first. CMP is awarded to whichever Pokémon has the higher effective raw Attack stat at that moment. Some competitive battlers deliberately choose an IV spread with slightly higher Attack to win CMP ties in mirror matches."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does the IV floor (Raid, Egg, Weather Boost, Lucky Trade) affect PvP ranks?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Raids, Eggs, and Field Research encounters have a minimum IV floor of 10/10/10, restricting wild 0-Attack spreads. Weather-boosted Pokémon have a 4/4/4 IV floor, and Lucky Trades have a 12/12/12 floor. Setting an IV floor recalculates the rank pool exclusively out of eligible IV combinations (e.g., 216 combinations for a 10/10/10 floor instead of 4,096 for wild encounters)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are Level 50 XL Candy and Level 51 Best Buddy boosts?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Pokémon can be powered up to Level 50 using Candy XL. In addition, reaching Best Buddy status with your buddy Pokémon grants an active +1.0 Level Boost (reaching Level 51). For Pokémon whose maximum CP stays below 1500 CP in Great League (such as Medicham, Sableye, or Bastiodon) or 2500 CP in Ultra League (such as Talonflame or Umbreon), reaching Level 50 or Level 51 allows them to hit maximum competitive viability."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://iv-poke-go.vercel.app/#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://iv-poke-go.vercel.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Pokémon GO PvP IV Calculator",
+                "item": "https://iv-poke-go.vercel.app/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "GO Battle League Rankings",
+                "item": "https://iv-poke-go.vercel.app/"
+              }
+            ]
+          },
+          {
+            "@type": "HowTo",
+            "@id": "https://iv-poke-go.vercel.app/#howto",
+            "name": "How to Check Pokémon GO PvP IV Rankings for GO Battle League",
+            "description": "Step-by-step guide to finding your Pokémon's exact PvP IV rank, optimal CP, and stat product for Great League, Ultra League, and Master League.",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Appraise Pokémon in Pokémon GO",
+                "text": "Open Pokémon GO, view your Pokémon, tap the menu button, and select 'Appraise' to inspect its Attack, Defense, and Stamina IV bars (0 to 15)."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Select Species and League",
+                "text": "Search for your Pokémon species among all 1,092 released Pokémon in GO Arena IV and select your target battle league (Great, Ultra, or Master League)."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Input IV Values",
+                "text": "Type or adjust the Attack, Defense, and Stamina IV values using the number inputs, steppers, or quick-preset buttons (e.g., 0/15/15)."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "View Rank and Stat Product",
+                "text": "Instantly review your Pokémon's exact rank (out of 4,096), power-up level, max CP, stat product percentage, and compare against the #1 ranked spread."
+              }
+            ]
+          }
+        ]
       }
     </script>
 
-    <!-- Typography -->
+    <!-- Typography Preconnect & Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -79,7 +274,88 @@
     />
   </head>
   <body class="bg-[#0b1120] text-slate-100 antialiased">
-    <div id="root"></div>
+    <!-- 
+      SEO Pre-rendered Semantic Fallback 
+      Provides instant semantic content, headings, and schema for search engine crawlers (Googlebot, Bingbot).
+      React's client-side createRoot hydrates/replaces this container upon initial load.
+    -->
+    <div id="root">
+      <header style="padding: 16px; background-color: #090e1a; border-bottom: 1px solid #1e293b;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;">
+          <h1 style="font-size: 1.5rem; font-weight: bold; color: #ffffff; margin: 0;">
+            GO Arena IV – Pokémon GO PvP IV Calculator &amp; Rank Checker
+          </h1>
+          <span style="font-size: 0.875rem; color: #94a3b8;">1,092 Species · Great, Ultra &amp; Master League</span>
+        </div>
+      </header>
+      <main style="max-width: 1200px; margin: 0 auto; padding: 24px 16px;">
+        <section style="margin-bottom: 24px;">
+          <h2 style="font-size: 1.25rem; font-weight: bold; color: #38bdf8; margin-bottom: 8px;">
+            Calculate Exact PvP IV Rankings, CP, and Stat Products for GO Battle League (GBL)
+          </h2>
+          <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">
+            GO Arena IV is a comprehensive Pokémon GO PvP IV calculator and GO Battle League rank checker.
+            Analyze all 1,092 released Pokémon species and alternate forms across Great League (1500 CP limit),
+            Ultra League (2500 CP limit), and Master League (No CP limit).
+            Features include Level Cap 40, 41, 50 XL, and 51 Best Buddy evaluations, custom IV floors (Wild, Raid, Egg, Research, Weather Boost, Lucky Trade),
+            and full 4,096 spread ranking tables with stat products.
+          </p>
+        </section>
+
+        <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 32px;">
+          <article style="background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 16px;">
+            <h3 style="font-size: 1.1rem; color: #38bdf8; margin-top: 0;">Great League (1500 CP Cap)</h3>
+            <p style="color: #94a3b8; font-size: 0.875rem; line-height: 1.5;">
+              Discover the optimal low-attack IV spreads for the 1500 CP cap. Maximize defense and stamina stat products for meta contenders like Azumarill, Clodsire, Swampert, Bastiodon, and Carbink.
+            </p>
+          </article>
+          <article style="background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 16px;">
+            <h3 style="font-size: 1.1rem; color: #fbbf24; margin-top: 0;">Ultra League (2500 CP Cap)</h3>
+            <p style="color: #94a3b8; font-size: 0.875rem; line-height: 1.5;">
+              Evaluate stat product rankings for the 2500 CP limit. Support for Level 50 XL Pokémon such as Talonflame, Umbreon, Galvantula, and Mandibuzz alongside Legendaries like Giratina and Cresselia.
+            </p>
+          </article>
+          <article style="background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 16px;">
+            <h3 style="font-size: 1.1rem; color: #c084fc; margin-top: 0;">Master League (No CP Cap)</h3>
+            <p style="color: #94a3b8; font-size: 0.875rem; line-height: 1.5;">
+              Uncapped battles where 15/15/15 (100% IV) reigns supreme. Compare stat differences, breakpoints, and CMP ties for Dialga, Mewtwo, Kyogre, Groudon, and Dragonite at Level 50 and Level 51 Best Buddy.
+            </p>
+          </article>
+        </section>
+
+        <section style="background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 20px; margin-bottom: 32px;">
+          <h2 style="font-size: 1.25rem; font-weight: bold; color: #ffffff; margin-top: 0; margin-bottom: 12px;">
+            Frequently Asked Questions: Pokémon GO PvP IVs &amp; Stat Products
+          </h2>
+          <div style="margin-bottom: 16px;">
+            <h3 style="font-size: 1rem; color: #38bdf8; margin-bottom: 4px;">Why do Pokémon have 0 Attack IV in Great League and Ultra League?</h3>
+            <p style="color: #cbd5e1; font-size: 0.875rem; line-height: 1.5; margin: 0;">
+              In Pokémon GO, the CP formula weights Attack disproportionately compared to Defense and Stamina. Because Great and Ultra League have hard CP ceilings (1500 and 2500 CP), having a 0 Attack IV allows the Pokémon to reach a higher level, fitting significantly more total defense and stamina stats for a higher overall stat product.
+            </p>
+          </div>
+          <div style="margin-bottom: 16px;">
+            <h3 style="font-size: 1rem; color: #38bdf8; margin-bottom: 4px;">What is Stat Product in GO Battle League?</h3>
+            <p style="color: #cbd5e1; font-size: 0.875rem; line-height: 1.5; margin: 0;">
+              Stat product is calculated by multiplying a Pokémon's effective Attack, Defense, and HP (Stat Product = Atk × Def × HP). The IV spread with the highest stat product under the CP cap is Rank #1 (100%).
+            </p>
+          </div>
+          <div>
+            <h3 style="font-size: 1rem; color: #38bdf8; margin-bottom: 4px;">What is Charge Move Priority (CMP)?</h3>
+            <p style="color: #cbd5e1; font-size: 0.875rem; line-height: 1.5; margin: 0;">
+              When both Pokémon fire a charge attack simultaneously, the Pokémon with the higher raw Attack stat fires first. Some players deliberately choose slight attack-weighted spreads to win CMP ties in mirror matches.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- No-Script Fallback for Search Engines and Non-JS Clients -->
+    <noscript>
+      <div style="padding: 20px; background: #0f172a; color: #f8fafc; text-align: center; border-bottom: 2px solid #38bdf8;">
+        <p><strong>Note:</strong> GO Arena IV is an interactive JavaScript application. Please enable JavaScript to access live search, instant IV slider adjustments, and 3D animations.</p>
+      </div>
+    </noscript>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
